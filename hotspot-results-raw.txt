@@ -1,0 +1,793 @@
+Benchmark                                                                                               (n)  (size)  (smallSize)    Mode      Cnt         Score      Error  Units
+MfvcShadowStack.boxed                                                                                     3     N/A          N/A  sample  1004248        78.789 ±    8.590  ns/op
+MfvcShadowStack.boxed:boxed·p0.00                                                                         3     N/A          N/A  sample                  1.000             ns/op
+MfvcShadowStack.boxed:boxed·p0.50                                                                         3     N/A          N/A  sample                 43.000             ns/op
+MfvcShadowStack.boxed:boxed·p0.90                                                                         3     N/A          N/A  sample                 50.000             ns/op
+MfvcShadowStack.boxed:boxed·p0.95                                                                         3     N/A          N/A  sample                 54.000             ns/op
+MfvcShadowStack.boxed:boxed·p0.99                                                                         3     N/A          N/A  sample                110.000             ns/op
+MfvcShadowStack.boxed:boxed·p0.999                                                                        3     N/A          N/A  sample              15036.016             ns/op
+MfvcShadowStack.boxed:boxed·p0.9999                                                                       3     N/A          N/A  sample              27136.000             ns/op
+MfvcShadowStack.boxed:boxed·p1.00                                                                         3     N/A          N/A  sample            1589248.000             ns/op
+MfvcShadowStack.boxed                                                                                    10     N/A          N/A  sample   798497       118.979 ±   14.396  ns/op
+MfvcShadowStack.boxed:boxed·p0.00                                                                        10     N/A          N/A  sample                  1.000             ns/op
+MfvcShadowStack.boxed:boxed·p0.50                                                                        10     N/A          N/A  sample                 62.000             ns/op
+MfvcShadowStack.boxed:boxed·p0.90                                                                        10     N/A          N/A  sample                 73.000             ns/op
+MfvcShadowStack.boxed:boxed·p0.95                                                                        10     N/A          N/A  sample                 81.000             ns/op
+MfvcShadowStack.boxed:boxed·p0.99                                                                        10     N/A          N/A  sample                341.000             ns/op
+MfvcShadowStack.boxed:boxed·p0.999                                                                       10     N/A          N/A  sample              16864.000             ns/op
+MfvcShadowStack.boxed:boxed·p0.9999                                                                      10     N/A          N/A  sample              29600.000             ns/op
+MfvcShadowStack.boxed:boxed·p1.00                                                                        10     N/A          N/A  sample            2097152.000             ns/op
+MfvcShadowStack.boxed                                                                                    50     N/A          N/A  sample   892136       327.276 ±   19.178  ns/op
+MfvcShadowStack.boxed:boxed·p0.00                                                                        50     N/A          N/A  sample                149.000             ns/op
+MfvcShadowStack.boxed:boxed·p0.50                                                                        50     N/A          N/A  sample                204.000             ns/op
+MfvcShadowStack.boxed:boxed·p0.90                                                                        50     N/A          N/A  sample                237.000             ns/op
+MfvcShadowStack.boxed:boxed·p0.95                                                                        50     N/A          N/A  sample                286.000             ns/op
+MfvcShadowStack.boxed:boxed·p0.99                                                                        50     N/A          N/A  sample               1764.000             ns/op
+MfvcShadowStack.boxed:boxed·p0.999                                                                       50     N/A          N/A  sample              22688.000             ns/op
+MfvcShadowStack.boxed:boxed·p0.9999                                                                      50     N/A          N/A  sample              35122.323             ns/op
+MfvcShadowStack.boxed:boxed·p1.00                                                                        50     N/A          N/A  sample            1826816.000             ns/op
+MfvcShadowStack.shadow                                                                                    3     N/A          N/A  sample   973621        68.691 ±    2.436  ns/op
+MfvcShadowStack.shadow:shadow·p0.00                                                                       3     N/A          N/A  sample                  1.000             ns/op
+MfvcShadowStack.shadow:shadow·p0.50                                                                       3     N/A          N/A  sample                 39.000             ns/op
+MfvcShadowStack.shadow:shadow·p0.90                                                                       3     N/A          N/A  sample                 47.000             ns/op
+MfvcShadowStack.shadow:shadow·p0.95                                                                       3     N/A          N/A  sample                 48.000             ns/op
+MfvcShadowStack.shadow:shadow·p0.99                                                                       3     N/A          N/A  sample                 58.000             ns/op
+MfvcShadowStack.shadow:shadow·p0.999                                                                      3     N/A          N/A  sample              14464.000             ns/op
+MfvcShadowStack.shadow:shadow·p0.9999                                                                     3     N/A          N/A  sample              26676.410             ns/op
+MfvcShadowStack.shadow:shadow·p1.00                                                                       3     N/A          N/A  sample              98432.000             ns/op
+MfvcShadowStack.shadow                                                                                   10     N/A          N/A  sample   811901       102.850 ±    5.401  ns/op
+MfvcShadowStack.shadow:shadow·p0.00                                                                      10     N/A          N/A  sample                  8.000             ns/op
+MfvcShadowStack.shadow:shadow·p0.50                                                                      10     N/A          N/A  sample                 58.000             ns/op
+MfvcShadowStack.shadow:shadow·p0.90                                                                      10     N/A          N/A  sample                 64.000             ns/op
+MfvcShadowStack.shadow:shadow·p0.95                                                                      10     N/A          N/A  sample                 69.000             ns/op
+MfvcShadowStack.shadow:shadow·p0.99                                                                      10     N/A          N/A  sample                114.000             ns/op
+MfvcShadowStack.shadow:shadow·p0.999                                                                     10     N/A          N/A  sample              17344.000             ns/op
+MfvcShadowStack.shadow:shadow·p0.9999                                                                    10     N/A          N/A  sample              30657.568             ns/op
+MfvcShadowStack.shadow:shadow·p1.00                                                                      10     N/A          N/A  sample            1024000.000             ns/op
+MfvcShadowStack.shadow                                                                                   50     N/A          N/A  sample  1130682       304.723 ±    4.092  ns/op
+MfvcShadowStack.shadow:shadow·p0.00                                                                      50     N/A          N/A  sample                113.000             ns/op
+MfvcShadowStack.shadow:shadow·p0.50                                                                      50     N/A          N/A  sample                220.000             ns/op
+MfvcShadowStack.shadow:shadow·p0.90                                                                      50     N/A          N/A  sample                229.000             ns/op
+MfvcShadowStack.shadow:shadow·p0.95                                                                      50     N/A          N/A  sample                235.000             ns/op
+MfvcShadowStack.shadow:shadow·p0.99                                                                      50     N/A          N/A  sample                334.170             ns/op
+MfvcShadowStack.shadow:shadow·p0.999                                                                     50     N/A          N/A  sample              22272.000             ns/op
+MfvcShadowStack.shadow:shadow·p0.9999                                                                    50     N/A          N/A  sample              35250.886             ns/op
+MfvcShadowStack.shadow:shadow·p1.00                                                                      50     N/A          N/A  sample             123904.000             ns/op
+VArrays.generateDense2D                                                                                 N/A      10          N/A  sample   983129        73.243 ±    2.357  ns/op
+VArrays.generateDense2D:generateDense2D·p0.00                                                           N/A      10          N/A  sample                  1.000             ns/op
+VArrays.generateDense2D:generateDense2D·p0.50                                                           N/A      10          N/A  sample                 44.000             ns/op
+VArrays.generateDense2D:generateDense2D·p0.90                                                           N/A      10          N/A  sample                 52.000             ns/op
+VArrays.generateDense2D:generateDense2D·p0.95                                                           N/A      10          N/A  sample                 54.000             ns/op
+VArrays.generateDense2D:generateDense2D·p0.99                                                           N/A      10          N/A  sample                 80.000             ns/op
+VArrays.generateDense2D:generateDense2D·p0.999                                                          N/A      10          N/A  sample              14160.000             ns/op
+VArrays.generateDense2D:generateDense2D·p0.9999                                                         N/A      10          N/A  sample              27392.000             ns/op
+VArrays.generateDense2D:generateDense2D·p1.00                                                           N/A      10          N/A  sample              88576.000             ns/op
+VArrays.generateDense2D                                                                                 N/A    1000          N/A  sample   892718      1307.201 ±   36.750  ns/op
+VArrays.generateDense2D:generateDense2D·p0.00                                                           N/A    1000          N/A  sample                711.000             ns/op
+VArrays.generateDense2D:generateDense2D·p0.50                                                           N/A    1000          N/A  sample                983.000             ns/op
+VArrays.generateDense2D:generateDense2D·p0.90                                                           N/A    1000          N/A  sample               1160.000             ns/op
+VArrays.generateDense2D:generateDense2D·p0.95                                                           N/A    1000          N/A  sample               1308.000             ns/op
+VArrays.generateDense2D:generateDense2D·p0.99                                                           N/A    1000          N/A  sample               5406.480             ns/op
+VArrays.generateDense2D:generateDense2D·p0.999                                                          N/A    1000          N/A  sample              29792.000             ns/op
+VArrays.generateDense2D:generateDense2D·p0.9999                                                         N/A    1000          N/A  sample              66874.394             ns/op
+VArrays.generateDense2D:generateDense2D·p1.00                                                           N/A    1000          N/A  sample            1757184.000             ns/op
+VArrays.generateDense2D                                                                                 N/A  100000          N/A  sample   326488     92142.484 ±  507.303  ns/op
+VArrays.generateDense2D:generateDense2D·p0.00                                                           N/A  100000          N/A  sample              74240.000             ns/op
+VArrays.generateDense2D:generateDense2D·p0.50                                                           N/A  100000          N/A  sample              82432.000             ns/op
+VArrays.generateDense2D:generateDense2D·p0.90                                                           N/A  100000          N/A  sample              99328.000             ns/op
+VArrays.generateDense2D:generateDense2D·p0.95                                                           N/A  100000          N/A  sample             116736.000             ns/op
+VArrays.generateDense2D:generateDense2D·p0.99                                                           N/A  100000          N/A  sample             200192.000             ns/op
+VArrays.generateDense2D:generateDense2D·p0.999                                                          N/A  100000          N/A  sample             493829.632             ns/op
+VArrays.generateDense2D:generateDense2D·p0.9999                                                         N/A  100000          N/A  sample            3182592.000             ns/op
+VArrays.generateDense2D:generateDense2D·p1.00                                                           N/A  100000          N/A  sample            4063232.000             ns/op
+VArrays.generateDense3D                                                                                 N/A      10          N/A  sample   695941        99.652 ±    3.650  ns/op
+VArrays.generateDense3D:generateDense3D·p0.00                                                           N/A      10          N/A  sample                  1.000             ns/op
+VArrays.generateDense3D:generateDense3D·p0.50                                                           N/A      10          N/A  sample                 52.000             ns/op
+VArrays.generateDense3D:generateDense3D·p0.90                                                           N/A      10          N/A  sample                 61.000             ns/op
+VArrays.generateDense3D:generateDense3D·p0.95                                                           N/A      10          N/A  sample                 65.000             ns/op
+VArrays.generateDense3D:generateDense3D·p0.99                                                           N/A      10          N/A  sample                165.000             ns/op
+VArrays.generateDense3D:generateDense3D·p0.999                                                          N/A      10          N/A  sample              17505.856             ns/op
+VArrays.generateDense3D:generateDense3D·p0.9999                                                         N/A      10          N/A  sample              29421.914             ns/op
+VArrays.generateDense3D:generateDense3D·p1.00                                                           N/A      10          N/A  sample              97408.000             ns/op
+VArrays.generateDense3D                                                                                 N/A    1000          N/A  sample   941666      2215.288 ±   35.599  ns/op
+VArrays.generateDense3D:generateDense3D·p0.00                                                           N/A    1000          N/A  sample               1398.000             ns/op
+VArrays.generateDense3D:generateDense3D·p0.50                                                           N/A    1000          N/A  sample               1832.000             ns/op
+VArrays.generateDense3D:generateDense3D·p0.90                                                           N/A    1000          N/A  sample               2092.000             ns/op
+VArrays.generateDense3D:generateDense3D·p0.95                                                           N/A    1000          N/A  sample               2312.000             ns/op
+VArrays.generateDense3D:generateDense3D·p0.99                                                           N/A    1000          N/A  sample              16144.000             ns/op
+VArrays.generateDense3D:generateDense3D·p0.999                                                          N/A    1000          N/A  sample              31968.000             ns/op
+VArrays.generateDense3D:generateDense3D·p0.9999                                                         N/A    1000          N/A  sample              72895.987             ns/op
+VArrays.generateDense3D:generateDense3D·p1.00                                                           N/A    1000          N/A  sample            1814528.000             ns/op
+VArrays.generateDense3D                                                                                 N/A  100000          N/A  sample   165144    182314.561 ±  987.387  ns/op
+VArrays.generateDense3D:generateDense3D·p0.00                                                           N/A  100000          N/A  sample             147712.000             ns/op
+VArrays.generateDense3D:generateDense3D·p0.50                                                           N/A  100000          N/A  sample             157696.000             ns/op
+VArrays.generateDense3D:generateDense3D·p0.90                                                           N/A  100000          N/A  sample             210944.000             ns/op
+VArrays.generateDense3D:generateDense3D·p0.95                                                           N/A  100000          N/A  sample             246528.000             ns/op
+VArrays.generateDense3D:generateDense3D·p0.99                                                           N/A  100000          N/A  sample             388096.000             ns/op
+VArrays.generateDense3D:generateDense3D·p0.999                                                          N/A  100000          N/A  sample            2981888.000             ns/op
+VArrays.generateDense3D:generateDense3D·p0.9999                                                         N/A  100000          N/A  sample            3313664.000             ns/op
+VArrays.generateDense3D:generateDense3D·p1.00                                                           N/A  100000          N/A  sample            4227072.000             ns/op
+VArrays.generateRegular2D                                                                               N/A      10          N/A  sample   949823        92.647 ±    7.489  ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.00                                                       N/A      10          N/A  sample                  4.000             ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.50                                                       N/A      10          N/A  sample                 57.000             ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.90                                                       N/A      10          N/A  sample                 66.000             ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.95                                                       N/A      10          N/A  sample                 72.000             ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.99                                                       N/A      10          N/A  sample                220.000             ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.999                                                      N/A      10          N/A  sample              14544.000             ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.9999                                                     N/A      10          N/A  sample              27937.126             ns/op
+VArrays.generateRegular2D:generateRegular2D·p1.00                                                       N/A      10          N/A  sample            1503232.000             ns/op
+VArrays.generateRegular2D                                                                               N/A    1000          N/A  sample   715064      3020.863 ±   73.130  ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.00                                                       N/A    1000          N/A  sample               2028.000             ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.50                                                       N/A    1000          N/A  sample               2368.000             ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.90                                                       N/A    1000          N/A  sample               2820.000             ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.95                                                       N/A    1000          N/A  sample               3252.000             ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.99                                                       N/A    1000          N/A  sample              18272.000             ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.999                                                      N/A    1000          N/A  sample              34048.000             ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.9999                                                     N/A    1000          N/A  sample            1449957.376             ns/op
+VArrays.generateRegular2D:generateRegular2D·p1.00                                                       N/A    1000          N/A  sample            2830336.000             ns/op
+VArrays.generateRegular2D                                                                               N/A  100000          N/A  sample   104365    288842.059 ± 1991.739  ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.00                                                       N/A  100000          N/A  sample             230400.000             ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.50                                                       N/A  100000          N/A  sample             256000.000             ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.90                                                       N/A  100000          N/A  sample             311296.000             ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.95                                                       N/A  100000          N/A  sample             377344.000             ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.99                                                       N/A  100000          N/A  sample            1211760.640             ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.999                                                      N/A  100000          N/A  sample            3432448.000             ns/op
+VArrays.generateRegular2D:generateRegular2D·p0.9999                                                     N/A  100000          N/A  sample            3781127.373             ns/op
+VArrays.generateRegular2D:generateRegular2D·p1.00                                                       N/A  100000          N/A  sample            4595712.000             ns/op
+VArrays.generateRegular3D                                                                               N/A      10          N/A  sample   963712        89.587 ±   10.019  ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.00                                                       N/A      10          N/A  sample                  4.000             ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.50                                                       N/A      10          N/A  sample                 57.000             ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.90                                                       N/A      10          N/A  sample                 66.000             ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.95                                                       N/A      10          N/A  sample                 69.000             ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.99                                                       N/A      10          N/A  sample                220.000             ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.999                                                      N/A      10          N/A  sample               4047.444             ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.9999                                                     N/A      10          N/A  sample              26996.118             ns/op
+VArrays.generateRegular3D:generateRegular3D·p1.00                                                       N/A      10          N/A  sample            1597440.000             ns/op
+VArrays.generateRegular3D                                                                               N/A    1000          N/A  sample   713235      2983.647 ±   67.364  ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.00                                                       N/A    1000          N/A  sample               2080.000             ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.50                                                       N/A    1000          N/A  sample               2380.000             ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.90                                                       N/A    1000          N/A  sample               2824.000             ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.95                                                       N/A    1000          N/A  sample               3216.000             ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.99                                                       N/A    1000          N/A  sample              18304.000             ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.999                                                      N/A    1000          N/A  sample              33216.000             ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.9999                                                     N/A    1000          N/A  sample            1450706.534             ns/op
+VArrays.generateRegular3D:generateRegular3D·p1.00                                                       N/A    1000          N/A  sample            1947648.000             ns/op
+VArrays.generateRegular3D                                                                               N/A  100000          N/A  sample   103713    290727.283 ± 2219.985  ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.00                                                       N/A  100000          N/A  sample             232960.000             ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.50                                                       N/A  100000          N/A  sample             257280.000             ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.90                                                       N/A  100000          N/A  sample             314368.000             ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.95                                                       N/A  100000          N/A  sample             382464.000             ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.99                                                       N/A  100000          N/A  sample             637952.000             ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.999                                                      N/A  100000          N/A  sample            3481600.000             ns/op
+VArrays.generateRegular3D:generateRegular3D·p0.9999                                                     N/A  100000          N/A  sample            5862681.805             ns/op
+VArrays.generateRegular3D:generateRegular3D·p1.00                                                       N/A  100000          N/A  sample            8331264.000             ns/op
+VArrays.generateSparse2D                                                                                N/A      10          N/A  sample   924577        71.980 ±    6.633  ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.00                                                         N/A      10          N/A  sample                  1.000             ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.50                                                         N/A      10          N/A  sample                 46.000             ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.90                                                         N/A      10          N/A  sample                 54.000             ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.95                                                         N/A      10          N/A  sample                 57.000             ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.99                                                         N/A      10          N/A  sample                101.000             ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.999                                                        N/A      10          N/A  sample               3377.064             ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.9999                                                       N/A      10          N/A  sample              26001.350             ns/op
+VArrays.generateSparse2D:generateSparse2D·p1.00                                                         N/A      10          N/A  sample            1767424.000             ns/op
+VArrays.generateSparse2D                                                                                N/A    1000          N/A  sample   915565      1216.770 ±   30.487  ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.00                                                         N/A    1000          N/A  sample                699.000             ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.50                                                         N/A    1000          N/A  sample                967.000             ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.90                                                         N/A    1000          N/A  sample               1116.000             ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.95                                                         N/A    1000          N/A  sample               1256.000             ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.99                                                         N/A    1000          N/A  sample               3896.000             ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.999                                                        N/A    1000          N/A  sample              27744.000             ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.9999                                                       N/A    1000          N/A  sample              51349.133             ns/op
+VArrays.generateSparse2D:generateSparse2D·p1.00                                                         N/A    1000          N/A  sample            1716224.000             ns/op
+VArrays.generateSparse2D                                                                                N/A  100000          N/A  sample   271946    110731.236 ±  661.330  ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.00                                                         N/A  100000          N/A  sample              87680.000             ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.50                                                         N/A  100000          N/A  sample              94976.000             ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.90                                                         N/A  100000          N/A  sample             137728.000             ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.95                                                         N/A  100000          N/A  sample             149248.000             ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.99                                                         N/A  100000          N/A  sample             257536.000             ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.999                                                        N/A  100000          N/A  sample            1184829.440             ns/op
+VArrays.generateSparse2D:generateSparse2D·p0.9999                                                       N/A  100000          N/A  sample            3299781.018             ns/op
+VArrays.generateSparse2D:generateSparse2D·p1.00                                                         N/A  100000          N/A  sample           15646720.000             ns/op
+VArrays.generateSparse3D                                                                                N/A      10          N/A  sample   714583        91.233 ±   10.981  ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.00                                                         N/A      10          N/A  sample                  1.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.50                                                         N/A      10          N/A  sample                 51.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.90                                                         N/A      10          N/A  sample                 59.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.95                                                         N/A      10          N/A  sample                 62.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.99                                                         N/A      10          N/A  sample                209.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.999                                                        N/A      10          N/A  sample              14896.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.9999                                                       N/A      10          N/A  sample              27392.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p1.00                                                         N/A      10          N/A  sample            1447936.000             ns/op
+VArrays.generateSparse3D                                                                                N/A    1000          N/A  sample   662399      1888.049 ±   53.135  ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.00                                                         N/A    1000          N/A  sample                965.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.50                                                         N/A    1000          N/A  sample               1440.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.90                                                         N/A    1000          N/A  sample               1728.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.95                                                         N/A    1000          N/A  sample               2100.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.99                                                         N/A    1000          N/A  sample              16016.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.999                                                        N/A    1000          N/A  sample              30784.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.9999                                                       N/A    1000          N/A  sample              70369.280             ns/op
+VArrays.generateSparse3D:generateSparse3D·p1.00                                                         N/A    1000          N/A  sample            1837056.000             ns/op
+VArrays.generateSparse3D                                                                                N/A  100000          N/A  sample   186538    161321.929 ±  976.004  ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.00                                                         N/A  100000          N/A  sample             121856.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.50                                                         N/A  100000          N/A  sample             139264.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.90                                                         N/A  100000          N/A  sample             187904.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.95                                                         N/A  100000          N/A  sample             222208.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.99                                                         N/A  100000          N/A  sample             369664.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.999                                                        N/A  100000          N/A  sample            2938720.256             ns/op
+VArrays.generateSparse3D:generateSparse3D·p0.9999                                                       N/A  100000          N/A  sample            3358720.000             ns/op
+VArrays.generateSparse3D:generateSparse3D·p1.00                                                         N/A  100000          N/A  sample           21364736.000             ns/op
+VArrays.randomAccessReadDense2D                                                                         N/A      10          N/A  sample   735385        80.145 ±    3.042  ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.00                                           N/A      10          N/A  sample                  1.000             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.50                                           N/A      10          N/A  sample                 49.000             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.90                                           N/A      10          N/A  sample                 52.000             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.95                                           N/A      10          N/A  sample                 54.000             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.99                                           N/A      10          N/A  sample                 67.000             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.999                                          N/A      10          N/A  sample              14512.000             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.9999                                         N/A      10          N/A  sample              29134.765             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p1.00                                           N/A      10          N/A  sample             196864.000             ns/op
+VArrays.randomAccessReadDense2D                                                                         N/A    1000          N/A  sample   822207      1304.016 ±    7.222  ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.00                                           N/A    1000          N/A  sample               1036.000             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.50                                           N/A    1000          N/A  sample               1112.000             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.90                                           N/A    1000          N/A  sample               1144.000             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.95                                           N/A    1000          N/A  sample               1202.000             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.99                                           N/A    1000          N/A  sample               3692.000             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.999                                          N/A    1000          N/A  sample              28384.000             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.9999                                         N/A    1000          N/A  sample              45745.869             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p1.00                                           N/A    1000          N/A  sample             185344.000             ns/op
+VArrays.randomAccessReadDense2D                                                                         N/A  100000          N/A  sample   144082    209448.747 ±  369.707  ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.00                                           N/A  100000          N/A  sample             174336.000             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.50                                           N/A  100000          N/A  sample             200448.000             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.90                                           N/A  100000          N/A  sample             242944.000             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.95                                           N/A  100000          N/A  sample             294400.000             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.99                                           N/A  100000          N/A  sample             412160.000             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.999                                          N/A  100000          N/A  sample             530347.008             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p0.9999                                         N/A  100000          N/A  sample             684783.206             ns/op
+VArrays.randomAccessReadDense2D:randomAccessReadDense2D·p1.00                                           N/A  100000          N/A  sample             951296.000             ns/op
+VArrays.randomAccessReadDense3D                                                                         N/A      10          N/A  sample   637149        85.889 ±    3.170  ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.00                                           N/A      10          N/A  sample                  1.000             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.50                                           N/A      10          N/A  sample                 52.000             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.90                                           N/A      10          N/A  sample                 56.000             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.95                                           N/A      10          N/A  sample                 58.000             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.99                                           N/A      10          N/A  sample                 67.000             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.999                                          N/A      10          N/A  sample              15053.600             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.9999                                         N/A      10          N/A  sample              27688.960             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p1.00                                           N/A      10          N/A  sample              65344.000             ns/op
+VArrays.randomAccessReadDense3D                                                                         N/A    1000          N/A  sample  1073475      1890.612 ±    6.826  ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.00                                           N/A    1000          N/A  sample               1498.000             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.50                                           N/A    1000          N/A  sample               1708.000             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.90                                           N/A    1000          N/A  sample               1786.000             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.95                                           N/A    1000          N/A  sample               1878.000             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.99                                           N/A    1000          N/A  sample              15264.000             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.999                                          N/A    1000          N/A  sample              29216.000             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.9999                                         N/A    1000          N/A  sample              43047.014             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p1.00                                           N/A    1000          N/A  sample             163840.000             ns/op
+VArrays.randomAccessReadDense3D                                                                         N/A  100000          N/A  sample    95376    316210.585 ±  839.203  ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.00                                           N/A  100000          N/A  sample             265728.000             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.50                                           N/A  100000          N/A  sample             301056.000             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.90                                           N/A  100000          N/A  sample             365056.000             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.95                                           N/A  100000          N/A  sample             427520.000             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.99                                           N/A  100000          N/A  sample             590059.520             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.999                                          N/A  100000          N/A  sample             792576.000             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p0.9999                                         N/A  100000          N/A  sample            2047227.904             ns/op
+VArrays.randomAccessReadDense3D:randomAccessReadDense3D·p1.00                                           N/A  100000          N/A  sample           11960320.000             ns/op
+VArrays.randomAccessReadRegular2D                                                                       N/A      10          N/A  sample   844143        73.036 ±    2.491  ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.00                                       N/A      10          N/A  sample                  1.000             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.50                                       N/A      10          N/A  sample                 47.000             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.90                                       N/A      10          N/A  sample                 51.000             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.95                                       N/A      10          N/A  sample                 53.000             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.99                                       N/A      10          N/A  sample                 62.000             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.999                                      N/A      10          N/A  sample              14157.696             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.9999                                     N/A      10          N/A  sample              26976.000             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p1.00                                       N/A      10          N/A  sample              60544.000             ns/op
+VArrays.randomAccessReadRegular2D                                                                       N/A    1000          N/A  sample   805704      1363.922 ±   10.796  ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.00                                       N/A    1000          N/A  sample               1054.000             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.50                                       N/A    1000          N/A  sample               1106.000             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.90                                       N/A    1000          N/A  sample               1156.000             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.95                                       N/A    1000          N/A  sample               1308.000             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.99                                       N/A    1000          N/A  sample              14848.000             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.999                                      N/A    1000          N/A  sample              29280.000             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.9999                                     N/A    1000          N/A  sample              68992.000             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p1.00                                       N/A    1000          N/A  sample             879616.000             ns/op
+VArrays.randomAccessReadRegular2D                                                                       N/A  100000          N/A  sample    71110    423871.091 ±  960.117  ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.00                                       N/A  100000          N/A  sample             345088.000             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.50                                       N/A  100000          N/A  sample             413184.000             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.90                                       N/A  100000          N/A  sample             499712.000             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.95                                       N/A  100000          N/A  sample             582656.000             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.99                                       N/A  100000          N/A  sample             755599.360             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.999                                      N/A  100000          N/A  sample            1020928.000             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p0.9999                                     N/A  100000          N/A  sample            1424043.008             ns/op
+VArrays.randomAccessReadRegular2D:randomAccessReadRegular2D·p1.00                                       N/A  100000          N/A  sample            1595392.000             ns/op
+VArrays.randomAccessReadRegular3D                                                                       N/A      10          N/A  sample   674928        92.505 ±    3.530  ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.00                                       N/A      10          N/A  sample                  1.000             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.50                                       N/A      10          N/A  sample                 52.000             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.90                                       N/A      10          N/A  sample                 57.000             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.95                                       N/A      10          N/A  sample                 59.000             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.99                                       N/A      10          N/A  sample                 78.000             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.999                                      N/A      10          N/A  sample              17088.000             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.9999                                     N/A      10          N/A  sample              27120.682             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p1.00                                       N/A      10          N/A  sample             137984.000             ns/op
+VArrays.randomAccessReadRegular3D                                                                       N/A    1000          N/A  sample  1106555      1860.986 ±    8.093  ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.00                                       N/A    1000          N/A  sample               1520.000             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.50                                       N/A    1000          N/A  sample               1614.000             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.90                                       N/A    1000          N/A  sample               1688.000             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.95                                       N/A    1000          N/A  sample               1808.000             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.99                                       N/A    1000          N/A  sample              15200.000             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.999                                      N/A    1000          N/A  sample              29216.000             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.9999                                     N/A    1000          N/A  sample              44524.083             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p1.00                                       N/A    1000          N/A  sample            1517568.000             ns/op
+VArrays.randomAccessReadRegular3D                                                                       N/A  100000          N/A  sample    52682    572538.397 ± 1460.776  ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.00                                       N/A  100000          N/A  sample             470016.000             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.50                                       N/A  100000          N/A  sample             547840.000             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.90                                       N/A  100000          N/A  sample             670720.000             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.95                                       N/A  100000          N/A  sample             754688.000             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.99                                       N/A  100000          N/A  sample             994478.080             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.999                                      N/A  100000          N/A  sample            1308672.000             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p0.9999                                     N/A  100000          N/A  sample            3083288.166             ns/op
+VArrays.randomAccessReadRegular3D:randomAccessReadRegular3D·p1.00                                       N/A  100000          N/A  sample            3874816.000             ns/op
+VArrays.randomAccessReadSparse2D                                                                        N/A      10          N/A  sample   938220        69.386 ±    2.221  ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.00                                         N/A      10          N/A  sample                  1.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.50                                         N/A      10          N/A  sample                 44.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.90                                         N/A      10          N/A  sample                 51.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.95                                         N/A      10          N/A  sample                 53.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.99                                         N/A      10          N/A  sample                 77.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.999                                        N/A      10          N/A  sample              13904.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.9999                                       N/A      10          N/A  sample              26848.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p1.00                                         N/A      10          N/A  sample              73088.000             ns/op
+VArrays.randomAccessReadSparse2D                                                                        N/A    1000          N/A  sample  1037703      1026.505 ±    5.474  ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.00                                         N/A    1000          N/A  sample                821.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.50                                         N/A    1000          N/A  sample                878.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.90                                         N/A    1000          N/A  sample                913.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.95                                         N/A    1000          N/A  sample                938.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.99                                         N/A    1000          N/A  sample               2956.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.999                                        N/A    1000          N/A  sample              25856.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.9999                                       N/A    1000          N/A  sample              37376.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p1.00                                         N/A    1000          N/A  sample             103552.000             ns/op
+VArrays.randomAccessReadSparse2D                                                                        N/A  100000          N/A  sample   130641    230581.964 ±  426.801  ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.00                                         N/A  100000          N/A  sample             187392.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.50                                         N/A  100000          N/A  sample             223488.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.90                                         N/A  100000          N/A  sample             268800.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.95                                         N/A  100000          N/A  sample             320000.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.99                                         N/A  100000          N/A  sample             445952.000             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.999                                        N/A  100000          N/A  sample             572782.592             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p0.9999                                       N/A  100000          N/A  sample             744053.555             ns/op
+VArrays.randomAccessReadSparse2D:randomAccessReadSparse2D·p1.00                                         N/A  100000          N/A  sample             972800.000             ns/op
+VArrays.randomAccessReadSparse3D                                                                        N/A      10          N/A  sample   787886        78.613 ±    2.772  ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.00                                         N/A      10          N/A  sample                  1.000             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.50                                         N/A      10          N/A  sample                 48.000             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.90                                         N/A      10          N/A  sample                 51.000             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.95                                         N/A      10          N/A  sample                 53.000             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.99                                         N/A      10          N/A  sample                 64.000             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.999                                        N/A      10          N/A  sample              14608.000             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.9999                                       N/A      10          N/A  sample              27451.046             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p1.00                                         N/A      10          N/A  sample              68864.000             ns/op
+VArrays.randomAccessReadSparse3D                                                                        N/A    1000          N/A  sample   715561      1513.791 ±    8.882  ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.00                                         N/A    1000          N/A  sample               1174.000             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.50                                         N/A    1000          N/A  sample               1266.000             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.90                                         N/A    1000          N/A  sample               1326.000             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.95                                         N/A    1000          N/A  sample               1396.000             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.99                                         N/A    1000          N/A  sample              15472.000             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.999                                        N/A    1000          N/A  sample              29312.000             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.9999                                       N/A    1000          N/A  sample              46272.000             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p1.00                                         N/A    1000          N/A  sample             197376.000             ns/op
+VArrays.randomAccessReadSparse3D                                                                        N/A  100000          N/A  sample    83428    361505.631 ±  768.261  ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.00                                         N/A  100000          N/A  sample             294912.000             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.50                                         N/A  100000          N/A  sample             352768.000             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.90                                         N/A  100000          N/A  sample             424448.000             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.95                                         N/A  100000          N/A  sample             491008.000             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.99                                         N/A  100000          N/A  sample             657408.000             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.999                                        N/A  100000          N/A  sample             854161.408             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p0.9999                                       N/A  100000          N/A  sample            1035438.797             ns/op
+VArrays.randomAccessReadSparse3D:randomAccessReadSparse3D·p1.00                                         N/A  100000          N/A  sample            1415168.000             ns/op
+VArrays.sequentialReadDense2D                                                                           N/A      10          N/A  sample   918398        67.630 ±    2.236  ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.00                                               N/A      10          N/A  sample                  3.000             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.50                                               N/A      10          N/A  sample                 44.000             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.90                                               N/A      10          N/A  sample                 49.000             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.95                                               N/A      10          N/A  sample                 51.000             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.99                                               N/A      10          N/A  sample                 58.000             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.999                                              N/A      10          N/A  sample              13904.000             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.9999                                             N/A      10          N/A  sample              26250.246             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p1.00                                               N/A      10          N/A  sample              82176.000             ns/op
+VArrays.sequentialReadDense2D                                                                           N/A    1000          N/A  sample   906009      1192.472 ±    6.894  ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.00                                               N/A    1000          N/A  sample                943.000             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.50                                               N/A    1000          N/A  sample                988.000             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.90                                               N/A    1000          N/A  sample               1032.000             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.95                                               N/A    1000          N/A  sample               1070.000             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.99                                               N/A    1000          N/A  sample               3276.000             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.999                                              N/A    1000          N/A  sample              28032.000             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.9999                                             N/A    1000          N/A  sample              41177.536             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p1.00                                               N/A    1000          N/A  sample             108800.000             ns/op
+VArrays.sequentialReadDense2D                                                                           N/A  100000          N/A  sample   265871    113343.608 ±  152.556  ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.00                                               N/A  100000          N/A  sample             101760.000             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.50                                               N/A  100000          N/A  sample             106880.000             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.90                                               N/A  100000          N/A  sample             120422.400             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.95                                               N/A  100000          N/A  sample             159488.000             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.99                                               N/A  100000          N/A  sample             235264.000             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.999                                              N/A  100000          N/A  sample             296448.000             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p0.9999                                             N/A  100000          N/A  sample             360269.414             ns/op
+VArrays.sequentialReadDense2D:sequentialReadDense2D·p1.00                                               N/A  100000          N/A  sample             483328.000             ns/op
+VArrays.sequentialReadDense3D                                                                           N/A      10          N/A  sample   818131        82.936 ±    2.698  ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.00                                               N/A      10          N/A  sample                  3.000             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.50                                               N/A      10          N/A  sample                 53.000             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.90                                               N/A      10          N/A  sample                 56.000             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.95                                               N/A      10          N/A  sample                 61.000             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.99                                               N/A      10          N/A  sample                 80.000             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.999                                              N/A      10          N/A  sample              14688.000             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.9999                                             N/A      10          N/A  sample              26981.978             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p1.00                                               N/A      10          N/A  sample              83200.000             ns/op
+VArrays.sequentialReadDense3D                                                                           N/A    1000          N/A  sample   933674      2187.683 ±    8.232  ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.00                                               N/A    1000          N/A  sample               1822.000             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.50                                               N/A    1000          N/A  sample               1880.000             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.90                                               N/A    1000          N/A  sample               1968.000             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.95                                               N/A    1000          N/A  sample               2164.000             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.99                                               N/A    1000          N/A  sample              16448.000             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.999                                              N/A    1000          N/A  sample              30794.400             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.9999                                             N/A    1000          N/A  sample              54602.400             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p1.00                                               N/A    1000          N/A  sample             290816.000             ns/op
+VArrays.sequentialReadDense3D                                                                           N/A  100000          N/A  sample   157615    191279.791 ±  372.654  ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.00                                               N/A  100000          N/A  sample             171008.000             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.50                                               N/A  100000          N/A  sample             181760.000             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.90                                               N/A  100000          N/A  sample             216064.000             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.95                                               N/A  100000          N/A  sample             259072.000             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.99                                               N/A  100000          N/A  sample             366080.000             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.999                                              N/A  100000          N/A  sample             484352.000             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p0.9999                                             N/A  100000          N/A  sample            1325855.539             ns/op
+VArrays.sequentialReadDense3D:sequentialReadDense3D·p1.00                                               N/A  100000          N/A  sample            5120000.000             ns/op
+VArrays.sequentialReadRegular2D                                                                         N/A      10          N/A  sample   771736        66.274 ±    2.644  ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.00                                           N/A      10          N/A  sample                  1.000             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.50                                           N/A      10          N/A  sample                 39.000             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.90                                           N/A      10          N/A  sample                 43.000             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.95                                           N/A      10          N/A  sample                 44.000             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.99                                           N/A      10          N/A  sample                 52.000             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.999                                          N/A      10          N/A  sample              14276.208             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.9999                                         N/A      10          N/A  sample              26110.650             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p1.00                                           N/A      10          N/A  sample              67328.000             ns/op
+VArrays.sequentialReadRegular2D                                                                         N/A    1000          N/A  sample  1124548       523.872 ±    4.558  ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.00                                           N/A    1000          N/A  sample                371.000             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.50                                           N/A    1000          N/A  sample                420.000             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.90                                           N/A    1000          N/A  sample                442.000             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.95                                           N/A    1000          N/A  sample                475.000             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.99                                           N/A    1000          N/A  sample                842.510             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.999                                          N/A    1000          N/A  sample              22976.000             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.9999                                         N/A    1000          N/A  sample              35490.886             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p1.00                                           N/A    1000          N/A  sample             295936.000             ns/op
+VArrays.sequentialReadRegular2D                                                                         N/A  100000          N/A  sample   408628     73824.299 ±  103.758  ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.00                                           N/A  100000          N/A  sample              61696.000             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.50                                           N/A  100000          N/A  sample              68608.000             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.90                                           N/A  100000          N/A  sample              82304.000             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.95                                           N/A  100000          N/A  sample             109440.000             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.99                                           N/A  100000          N/A  sample             165632.000             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.999                                          N/A  100000          N/A  sample             233054.976             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p0.9999                                         N/A  100000          N/A  sample             419166.976             ns/op
+VArrays.sequentialReadRegular2D:sequentialReadRegular2D·p1.00                                           N/A  100000          N/A  sample            1927168.000             ns/op
+VArrays.sequentialReadRegular3D                                                                         N/A      10          N/A  sample   684285        69.824 ±    4.424  ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.00                                           N/A      10          N/A  sample                  1.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.50                                           N/A      10          N/A  sample                 40.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.90                                           N/A      10          N/A  sample                 43.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.95                                           N/A      10          N/A  sample                 45.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.99                                           N/A      10          N/A  sample                 52.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.999                                          N/A      10          N/A  sample              14256.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.9999                                         N/A      10          N/A  sample              27268.570             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p1.00                                           N/A      10          N/A  sample             707584.000             ns/op
+VArrays.sequentialReadRegular3D                                                                         N/A    1000          N/A  sample   912318       643.648 ±    5.515  ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.00                                           N/A    1000          N/A  sample                454.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.50                                           N/A    1000          N/A  sample                511.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.90                                           N/A    1000          N/A  sample                533.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.95                                           N/A    1000          N/A  sample                556.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.99                                           N/A    1000          N/A  sample               2248.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.999                                          N/A    1000          N/A  sample              24672.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.9999                                         N/A    1000          N/A  sample              35584.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p1.00                                           N/A    1000          N/A  sample             115456.000             ns/op
+VArrays.sequentialReadRegular3D                                                                         N/A  100000          N/A  sample   368290     81778.072 ±  118.620  ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.00                                           N/A  100000          N/A  sample              70528.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.50                                           N/A  100000          N/A  sample              75648.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.90                                           N/A  100000          N/A  sample              90880.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.95                                           N/A  100000          N/A  sample             120960.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.99                                           N/A  100000          N/A  sample             186368.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.999                                          N/A  100000          N/A  sample             265216.000             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p0.9999                                         N/A  100000          N/A  sample             399710.003             ns/op
+VArrays.sequentialReadRegular3D:sequentialReadRegular3D·p1.00                                           N/A  100000          N/A  sample            1218560.000             ns/op
+VArrays.sequentialReadSparse2D                                                                          N/A      10          N/A  sample  1067172        62.734 ±    1.984  ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.00                                             N/A      10          N/A  sample                  1.000             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.50                                             N/A      10          N/A  sample                 41.000             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.90                                             N/A      10          N/A  sample                 47.000             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.95                                             N/A      10          N/A  sample                 48.000             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.99                                             N/A      10          N/A  sample                 54.000             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.999                                            N/A      10          N/A  sample               3111.848             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.9999                                           N/A      10          N/A  sample              26002.093             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p1.00                                             N/A      10          N/A  sample              70144.000             ns/op
+VArrays.sequentialReadSparse2D                                                                          N/A    1000          N/A  sample  1060996      1009.995 ±    5.629  ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.00                                             N/A    1000          N/A  sample                810.000             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.50                                             N/A    1000          N/A  sample                850.000             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.90                                             N/A    1000          N/A  sample                878.000             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.95                                             N/A    1000          N/A  sample                891.000             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.99                                             N/A    1000          N/A  sample               2628.000             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.999                                            N/A    1000          N/A  sample              26592.000             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.9999                                           N/A    1000          N/A  sample              38835.238             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p1.00                                             N/A    1000          N/A  sample              99840.000             ns/op
+VArrays.sequentialReadSparse2D                                                                          N/A  100000          N/A  sample   357810     84191.441 ±  112.632  ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.00                                             N/A  100000          N/A  sample              75008.000             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.50                                             N/A  100000          N/A  sample              78848.000             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.90                                             N/A  100000          N/A  sample              91776.000             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.95                                             N/A  100000          N/A  sample             122368.000             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.99                                             N/A  100000          N/A  sample             183296.000             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.999                                            N/A  100000          N/A  sample             233728.000             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p0.9999                                           N/A  100000          N/A  sample             297184.154             ns/op
+VArrays.sequentialReadSparse2D:sequentialReadSparse2D·p1.00                                             N/A  100000          N/A  sample            2539520.000             ns/op
+VArrays.sequentialReadSparse3D                                                                          N/A      10          N/A  sample   752346        79.504 ±    2.896  ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.00                                             N/A      10          N/A  sample                  3.000             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.50                                             N/A      10          N/A  sample                 47.000             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.90                                             N/A      10          N/A  sample                 51.000             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.95                                             N/A      10          N/A  sample                 53.000             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.99                                             N/A      10          N/A  sample                 70.000             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.999                                            N/A      10          N/A  sample              15503.344             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.9999                                           N/A      10          N/A  sample              27296.000             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p1.00                                             N/A      10          N/A  sample              58944.000             ns/op
+VArrays.sequentialReadSparse3D                                                                          N/A    1000          N/A  sample   774101      1401.818 ±    8.191  ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.00                                             N/A    1000          N/A  sample               1114.000             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.50                                             N/A    1000          N/A  sample               1156.000             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.90                                             N/A    1000          N/A  sample               1208.000             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.95                                             N/A    1000          N/A  sample               1268.000             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.99                                             N/A    1000          N/A  sample              15024.000             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.999                                            N/A    1000          N/A  sample              29184.000             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.9999                                           N/A    1000          N/A  sample              44837.747             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p1.00                                             N/A    1000          N/A  sample             190464.000             ns/op
+VArrays.sequentialReadSparse3D                                                                          N/A  100000          N/A  sample   212628    141684.399 ±  193.857  ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.00                                             N/A  100000          N/A  sample             127104.000             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.50                                             N/A  100000          N/A  sample             134912.000             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.90                                             N/A  100000          N/A  sample             155648.000             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.95                                             N/A  100000          N/A  sample             194816.000             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.99                                             N/A  100000          N/A  sample             278528.000             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.999                                            N/A  100000          N/A  sample             358400.000             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p0.9999                                           N/A  100000          N/A  sample             435389.952             ns/op
+VArrays.sequentialReadSparse3D:sequentialReadSparse3D·p1.00                                             N/A  100000          N/A  sample             667648.000             ns/op
+ValueClassesBoxUsageDouble.mfvc                                                                         N/A     N/A           10  sample   826342        95.372 ±    5.540  ns/op
+ValueClassesBoxUsageDouble.mfvc:mfvc·p0.00                                                              N/A     N/A           10  sample                  6.000             ns/op
+ValueClassesBoxUsageDouble.mfvc:mfvc·p0.50                                                              N/A     N/A           10  sample                 60.000             ns/op
+ValueClassesBoxUsageDouble.mfvc:mfvc·p0.90                                                              N/A     N/A           10  sample                 71.000             ns/op
+ValueClassesBoxUsageDouble.mfvc:mfvc·p0.95                                                              N/A     N/A           10  sample                 76.000             ns/op
+ValueClassesBoxUsageDouble.mfvc:mfvc·p0.99                                                              N/A     N/A           10  sample                285.000             ns/op
+ValueClassesBoxUsageDouble.mfvc:mfvc·p0.999                                                             N/A     N/A           10  sample              14416.000             ns/op
+ValueClassesBoxUsageDouble.mfvc:mfvc·p0.9999                                                            N/A     N/A           10  sample              27243.702             ns/op
+ValueClassesBoxUsageDouble.mfvc:mfvc·p1.00                                                              N/A     N/A           10  sample            1232896.000             ns/op
+ValueClassesBoxUsageDouble.mfvc                                                                         N/A     N/A         1000  sample   688050      3103.204 ±   73.478  ns/op
+ValueClassesBoxUsageDouble.mfvc:mfvc·p0.00                                                              N/A     N/A         1000  sample               2136.000             ns/op
+ValueClassesBoxUsageDouble.mfvc:mfvc·p0.50                                                              N/A     N/A         1000  sample               2456.000             ns/op
+ValueClassesBoxUsageDouble.mfvc:mfvc·p0.90                                                              N/A     N/A         1000  sample               2924.000             ns/op
+ValueClassesBoxUsageDouble.mfvc:mfvc·p0.95                                                              N/A     N/A         1000  sample               3468.000             ns/op
+ValueClassesBoxUsageDouble.mfvc:mfvc·p0.99                                                              N/A     N/A         1000  sample              18368.000             ns/op
+ValueClassesBoxUsageDouble.mfvc:mfvc·p0.999                                                             N/A     N/A         1000  sample              33280.000             ns/op
+ValueClassesBoxUsageDouble.mfvc:mfvc·p0.9999                                                            N/A     N/A         1000  sample            1490492.621             ns/op
+ValueClassesBoxUsageDouble.mfvc:mfvc·p1.00                                                              N/A     N/A         1000  sample            1959936.000             ns/op
+ValueClassesBoxUsageDouble.mfvcSmart                                                                    N/A     N/A           10  sample   759612        57.860 ±    6.425  ns/op
+ValueClassesBoxUsageDouble.mfvcSmart:mfvcSmart·p0.00                                                    N/A     N/A           10  sample                  1.000             ns/op
+ValueClassesBoxUsageDouble.mfvcSmart:mfvcSmart·p0.50                                                    N/A     N/A           10  sample                 35.000             ns/op
+ValueClassesBoxUsageDouble.mfvcSmart:mfvcSmart·p0.90                                                    N/A     N/A           10  sample                 40.000             ns/op
+ValueClassesBoxUsageDouble.mfvcSmart:mfvcSmart·p0.95                                                    N/A     N/A           10  sample                 43.000             ns/op
+ValueClassesBoxUsageDouble.mfvcSmart:mfvcSmart·p0.99                                                    N/A     N/A           10  sample                 53.000             ns/op
+ValueClassesBoxUsageDouble.mfvcSmart:mfvcSmart·p0.999                                                   N/A     N/A           10  sample               2381.548             ns/op
+ValueClassesBoxUsageDouble.mfvcSmart:mfvcSmart·p0.9999                                                  N/A     N/A           10  sample              25828.954             ns/op
+ValueClassesBoxUsageDouble.mfvcSmart:mfvcSmart·p1.00                                                    N/A     N/A           10  sample            1394688.000             ns/op
+ValueClassesBoxUsageDouble.mfvcSmart                                                                    N/A     N/A         1000  sample  1152895        49.479 ±    1.440  ns/op
+ValueClassesBoxUsageDouble.mfvcSmart:mfvcSmart·p0.00                                                    N/A     N/A         1000  sample                  1.000             ns/op
+ValueClassesBoxUsageDouble.mfvcSmart:mfvcSmart·p0.50                                                    N/A     N/A         1000  sample                 36.000             ns/op
+ValueClassesBoxUsageDouble.mfvcSmart:mfvcSmart·p0.90                                                    N/A     N/A         1000  sample                 41.000             ns/op
+ValueClassesBoxUsageDouble.mfvcSmart:mfvcSmart·p0.95                                                    N/A     N/A         1000  sample                 43.000             ns/op
+ValueClassesBoxUsageDouble.mfvcSmart:mfvcSmart·p0.99                                                    N/A     N/A         1000  sample                 52.000             ns/op
+ValueClassesBoxUsageDouble.mfvcSmart:mfvcSmart·p0.999                                                   N/A     N/A         1000  sample               2124.000             ns/op
+ValueClassesBoxUsageDouble.mfvcSmart:mfvcSmart·p0.9999                                                  N/A     N/A         1000  sample              22998.733             ns/op
+ValueClassesBoxUsageDouble.mfvcSmart:mfvcSmart·p1.00                                                    N/A     N/A         1000  sample              66048.000             ns/op
+ValueClassesBoxUsageDouble.regular                                                                      N/A     N/A           10  sample   724466        59.073 ±    8.863  ns/op
+ValueClassesBoxUsageDouble.regular:regular·p0.00                                                        N/A     N/A           10  sample                  1.000             ns/op
+ValueClassesBoxUsageDouble.regular:regular·p0.50                                                        N/A     N/A           10  sample                 35.000             ns/op
+ValueClassesBoxUsageDouble.regular:regular·p0.90                                                        N/A     N/A           10  sample                 40.000             ns/op
+ValueClassesBoxUsageDouble.regular:regular·p0.95                                                        N/A     N/A           10  sample                 42.000             ns/op
+ValueClassesBoxUsageDouble.regular:regular·p0.99                                                        N/A     N/A           10  sample                 49.000             ns/op
+ValueClassesBoxUsageDouble.regular:regular·p0.999                                                       N/A     N/A           10  sample               2392.000             ns/op
+ValueClassesBoxUsageDouble.regular:regular·p0.9999                                                      N/A     N/A           10  sample              26470.822             ns/op
+ValueClassesBoxUsageDouble.regular:regular·p1.00                                                        N/A     N/A           10  sample            1339392.000             ns/op
+ValueClassesBoxUsageDouble.regular                                                                      N/A     N/A         1000  sample  1149096        52.563 ±    5.323  ns/op
+ValueClassesBoxUsageDouble.regular:regular·p0.00                                                        N/A     N/A         1000  sample                  1.000             ns/op
+ValueClassesBoxUsageDouble.regular:regular·p0.50                                                        N/A     N/A         1000  sample                 35.000             ns/op
+ValueClassesBoxUsageDouble.regular:regular·p0.90                                                        N/A     N/A         1000  sample                 40.000             ns/op
+ValueClassesBoxUsageDouble.regular:regular·p0.95                                                        N/A     N/A         1000  sample                 42.000             ns/op
+ValueClassesBoxUsageDouble.regular:regular·p0.99                                                        N/A     N/A         1000  sample                 49.000             ns/op
+ValueClassesBoxUsageDouble.regular:regular·p0.999                                                       N/A     N/A         1000  sample               2196.000             ns/op
+ValueClassesBoxUsageDouble.regular:regular·p0.9999                                                      N/A     N/A         1000  sample              23680.000             ns/op
+ValueClassesBoxUsageDouble.regular:regular·p1.00                                                        N/A     N/A         1000  sample            1777664.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc                                                               N/A      10          N/A  sample   827775       139.477 ±    4.325  ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.00                                              N/A      10          N/A  sample                 55.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.50                                              N/A      10          N/A  sample                 95.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.90                                              N/A      10          N/A  sample                 99.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.95                                              N/A      10          N/A  sample                103.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.99                                              N/A      10          N/A  sample                143.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.999                                             N/A      10          N/A  sample              16544.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.9999                                            N/A      10          N/A  sample              31303.117             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p1.00                                              N/A      10          N/A  sample             539648.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc                                                               N/A    1000          N/A  sample   716718      2845.445 ±   10.429  ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.00                                              N/A    1000          N/A  sample               2312.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.50                                              N/A    1000          N/A  sample               2504.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.90                                              N/A    1000          N/A  sample               2576.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.95                                              N/A    1000          N/A  sample               2896.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.99                                              N/A    1000          N/A  sample              18880.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.999                                             N/A    1000          N/A  sample              32960.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.9999                                            N/A    1000          N/A  sample              60158.995             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p1.00                                              N/A    1000          N/A  sample             258304.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc                                                               N/A  100000          N/A  sample   620359      3416.950 ±   13.630  ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.00                                              N/A  100000          N/A  sample               2720.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.50                                              N/A  100000          N/A  sample               2944.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.90                                              N/A  100000          N/A  sample               3112.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.95                                              N/A  100000          N/A  sample               3588.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.99                                              N/A  100000          N/A  sample              22912.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.999                                             N/A  100000          N/A  sample              35328.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.9999                                            N/A  100000          N/A  sample              67451.392             ns/op
+ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p1.00                                              N/A  100000          N/A  sample             688128.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter                                                          N/A      10          N/A  sample   827915       136.255 ±    3.178  ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.00                                    N/A      10          N/A  sample                 45.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.50                                    N/A      10          N/A  sample                 96.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.90                                    N/A      10          N/A  sample                 99.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.95                                    N/A      10          N/A  sample                103.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.99                                    N/A      10          N/A  sample                142.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.999                                   N/A      10          N/A  sample              16640.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.9999                                  N/A      10          N/A  sample              29478.669             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p1.00                                    N/A      10          N/A  sample             102528.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter                                                          N/A    1000          N/A  sample   714791      2873.215 ±   16.660  ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.00                                    N/A    1000          N/A  sample               2304.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.50                                    N/A    1000          N/A  sample               2504.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.90                                    N/A    1000          N/A  sample               2584.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.95                                    N/A    1000          N/A  sample               2928.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.99                                    N/A    1000          N/A  sample              18976.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.999                                   N/A    1000          N/A  sample              33600.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.9999                                  N/A    1000          N/A  sample              67717.325             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p1.00                                    N/A    1000          N/A  sample            1417216.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter                                                          N/A  100000          N/A  sample   645669      3347.319 ±   11.989  ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.00                                    N/A  100000          N/A  sample               2708.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.50                                    N/A  100000          N/A  sample               2932.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.90                                    N/A  100000          N/A  sample               3148.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.95                                    N/A  100000          N/A  sample               3560.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.99                                    N/A  100000          N/A  sample              20640.000             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.999                                   N/A  100000          N/A  sample              34581.120             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p0.9999                                  N/A  100000          N/A  sample              66487.424             ns/op
+ValueClassesComplexUsageDouble.searchMfvcOuter:searchMfvcOuter·p1.00                                    N/A  100000          N/A  sample             310784.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular                                                            N/A      10          N/A  sample   698759       168.374 ±    7.739  ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.00                                        N/A      10          N/A  sample                 57.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.50                                        N/A      10          N/A  sample                107.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.90                                        N/A      10          N/A  sample                113.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.95                                        N/A      10          N/A  sample                121.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.99                                        N/A      10          N/A  sample                248.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.999                                       N/A      10          N/A  sample              20000.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.9999                                      N/A      10          N/A  sample              30923.904             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p1.00                                        N/A      10          N/A  sample            1380352.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular                                                            N/A    1000          N/A  sample   657237      3166.949 ±   44.160  ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.00                                        N/A    1000          N/A  sample               2488.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.50                                        N/A    1000          N/A  sample               2708.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.90                                        N/A    1000          N/A  sample               2868.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.95                                        N/A    1000          N/A  sample               3300.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.99                                        N/A    1000          N/A  sample              19552.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.999                                       N/A    1000          N/A  sample              33920.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.9999                                      N/A    1000          N/A  sample              73507.354             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p1.00                                        N/A    1000          N/A  sample            2195456.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular                                                            N/A  100000          N/A  sample   896381      3587.551 ±   37.060  ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.00                                        N/A  100000          N/A  sample               2936.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.50                                        N/A  100000          N/A  sample               3160.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.90                                        N/A  100000          N/A  sample               3276.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.95                                        N/A  100000          N/A  sample               3764.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.99                                        N/A  100000          N/A  sample              18816.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.999                                       N/A  100000          N/A  sample              33895.552             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p0.9999                                      N/A  100000          N/A  sample              75520.000             ns/op
+ValueClassesComplexUsageDouble.searchRegular:searchRegular·p1.00                                        N/A  100000          N/A  sample            2420736.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter                                                       N/A      10          N/A  sample   653800       202.470 ±   21.668  ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.00                              N/A      10          N/A  sample                 59.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.50                              N/A      10          N/A  sample                115.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.90                              N/A      10          N/A  sample                127.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.95                              N/A      10          N/A  sample                134.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.99                              N/A      10          N/A  sample                374.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.999                             N/A      10          N/A  sample              21088.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.9999                            N/A      10          N/A  sample              33295.347             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p1.00                              N/A      10          N/A  sample            1626112.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter                                                       N/A    1000          N/A  sample   640054      3255.213 ±   46.977  ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.00                              N/A    1000          N/A  sample               2584.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.50                              N/A    1000          N/A  sample               2796.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.90                              N/A    1000          N/A  sample               2880.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.95                              N/A    1000          N/A  sample               3328.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.99                              N/A    1000          N/A  sample              19488.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.999                             N/A    1000          N/A  sample              34304.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.9999                            N/A    1000          N/A  sample              76925.184             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p1.00                              N/A    1000          N/A  sample            2744320.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter                                                       N/A  100000          N/A  sample  1087269      3623.630 ±   30.642  ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.00                              N/A  100000          N/A  sample               3020.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.50                              N/A  100000          N/A  sample               3268.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.90                              N/A  100000          N/A  sample               3360.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.95                              N/A  100000          N/A  sample               3692.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.99                              N/A  100000          N/A  sample              17536.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.999                             N/A  100000          N/A  sample              32608.000             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p0.9999                            N/A  100000          N/A  sample              64034.944             ns/op
+ValueClassesComplexUsageDouble.searchRegularOuter:searchRegularOuter·p1.00                              N/A  100000          N/A  sample            2719744.000             ns/op
+ValueClassesGenerating.generateDPointsMfvc                                                              N/A     N/A          N/A  sample   806827        59.400 ±    2.441  ns/op
+ValueClassesGenerating.generateDPointsMfvc:generateDPointsMfvc·p0.00                                    N/A     N/A          N/A  sample                  1.000             ns/op
+ValueClassesGenerating.generateDPointsMfvc:generateDPointsMfvc·p0.50                                    N/A     N/A          N/A  sample                 35.000             ns/op
+ValueClassesGenerating.generateDPointsMfvc:generateDPointsMfvc·p0.90                                    N/A     N/A          N/A  sample                 38.000             ns/op
+ValueClassesGenerating.generateDPointsMfvc:generateDPointsMfvc·p0.95                                    N/A     N/A          N/A  sample                 39.000             ns/op
+ValueClassesGenerating.generateDPointsMfvc:generateDPointsMfvc·p0.99                                    N/A     N/A          N/A  sample                 45.000             ns/op
+ValueClassesGenerating.generateDPointsMfvc:generateDPointsMfvc·p0.999                                   N/A     N/A          N/A  sample              13968.000             ns/op
+ValueClassesGenerating.generateDPointsMfvc:generateDPointsMfvc·p0.9999                                  N/A     N/A          N/A  sample              27338.150             ns/op
+ValueClassesGenerating.generateDPointsMfvc:generateDPointsMfvc·p1.00                                    N/A     N/A          N/A  sample              55040.000             ns/op
+ValueClassesGenerating.generateDPointsRegular                                                           N/A     N/A          N/A  sample   804260        58.348 ±    2.594  ns/op
+ValueClassesGenerating.generateDPointsRegular:generateDPointsRegular·p0.00                              N/A     N/A          N/A  sample                  1.000             ns/op
+ValueClassesGenerating.generateDPointsRegular:generateDPointsRegular·p0.50                              N/A     N/A          N/A  sample                 35.000             ns/op
+ValueClassesGenerating.generateDPointsRegular:generateDPointsRegular·p0.90                              N/A     N/A          N/A  sample                 38.000             ns/op
+ValueClassesGenerating.generateDPointsRegular:generateDPointsRegular·p0.95                              N/A     N/A          N/A  sample                 39.000             ns/op
+ValueClassesGenerating.generateDPointsRegular:generateDPointsRegular·p0.99                              N/A     N/A          N/A  sample                 46.000             ns/op
+ValueClassesGenerating.generateDPointsRegular:generateDPointsRegular·p0.999                             N/A     N/A          N/A  sample              13511.648             ns/op
+ValueClassesGenerating.generateDPointsRegular:generateDPointsRegular·p0.9999                            N/A     N/A          N/A  sample              26660.730             ns/op
+ValueClassesGenerating.generateDPointsRegular:generateDPointsRegular·p1.00                              N/A     N/A          N/A  sample             247296.000             ns/op
+ValueClassesGenerating.generateEscapingDPointsMfvc                                                      N/A     N/A          N/A  sample   805298        60.200 ±    2.418  ns/op
+ValueClassesGenerating.generateEscapingDPointsMfvc:generateEscapingDPointsMfvc·p0.00                    N/A     N/A          N/A  sample                  1.000             ns/op
+ValueClassesGenerating.generateEscapingDPointsMfvc:generateEscapingDPointsMfvc·p0.50                    N/A     N/A          N/A  sample                 36.000             ns/op
+ValueClassesGenerating.generateEscapingDPointsMfvc:generateEscapingDPointsMfvc·p0.90                    N/A     N/A          N/A  sample                 39.000             ns/op
+ValueClassesGenerating.generateEscapingDPointsMfvc:generateEscapingDPointsMfvc·p0.95                    N/A     N/A          N/A  sample                 40.000             ns/op
+ValueClassesGenerating.generateEscapingDPointsMfvc:generateEscapingDPointsMfvc·p0.99                    N/A     N/A          N/A  sample                 49.000             ns/op
+ValueClassesGenerating.generateEscapingDPointsMfvc:generateEscapingDPointsMfvc·p0.999                   N/A     N/A          N/A  sample              13872.000             ns/op
+ValueClassesGenerating.generateEscapingDPointsMfvc:generateEscapingDPointsMfvc·p0.9999                  N/A     N/A          N/A  sample              26863.043             ns/op
+ValueClassesGenerating.generateEscapingDPointsMfvc:generateEscapingDPointsMfvc·p1.00                    N/A     N/A          N/A  sample              41728.000             ns/op
+ValueClassesGenerating.generateEscapingDPointsRegular                                                   N/A     N/A          N/A  sample  1130755        62.528 ±    1.870  ns/op
+ValueClassesGenerating.generateEscapingDPointsRegular:generateEscapingDPointsRegular·p0.00              N/A     N/A          N/A  sample                  1.000             ns/op
+ValueClassesGenerating.generateEscapingDPointsRegular:generateEscapingDPointsRegular·p0.50              N/A     N/A          N/A  sample                 41.000             ns/op
+ValueClassesGenerating.generateEscapingDPointsRegular:generateEscapingDPointsRegular·p0.90              N/A     N/A          N/A  sample                 44.000             ns/op
+ValueClassesGenerating.generateEscapingDPointsRegular:generateEscapingDPointsRegular·p0.95              N/A     N/A          N/A  sample                 47.000             ns/op
+ValueClassesGenerating.generateEscapingDPointsRegular:generateEscapingDPointsRegular·p0.99              N/A     N/A          N/A  sample                 71.000             ns/op
+ValueClassesGenerating.generateEscapingDPointsRegular:generateEscapingDPointsRegular·p0.999             N/A     N/A          N/A  sample               3888.000             ns/op
+ValueClassesGenerating.generateEscapingDPointsRegular:generateEscapingDPointsRegular·p0.9999            N/A     N/A          N/A  sample              23997.581             ns/op
+ValueClassesGenerating.generateEscapingDPointsRegular:generateEscapingDPointsRegular·p1.00              N/A     N/A          N/A  sample              67840.000             ns/op
+ValueClassesGenerating.generateEscapingOuterDPointsMfvc                                                 N/A     N/A          N/A  sample   715452        62.096 ±    2.697  ns/op
+ValueClassesGenerating.generateEscapingOuterDPointsMfvc:generateEscapingOuterDPointsMfvc·p0.00          N/A     N/A          N/A  sample                  1.000             ns/op
+ValueClassesGenerating.generateEscapingOuterDPointsMfvc:generateEscapingOuterDPointsMfvc·p0.50          N/A     N/A          N/A  sample                 35.000             ns/op
+ValueClassesGenerating.generateEscapingOuterDPointsMfvc:generateEscapingOuterDPointsMfvc·p0.90          N/A     N/A          N/A  sample                 39.000             ns/op
+ValueClassesGenerating.generateEscapingOuterDPointsMfvc:generateEscapingOuterDPointsMfvc·p0.95          N/A     N/A          N/A  sample                 40.000             ns/op
+ValueClassesGenerating.generateEscapingOuterDPointsMfvc:generateEscapingOuterDPointsMfvc·p0.99          N/A     N/A          N/A  sample                 49.000             ns/op
+ValueClassesGenerating.generateEscapingOuterDPointsMfvc:generateEscapingOuterDPointsMfvc·p0.999         N/A     N/A          N/A  sample              14064.000             ns/op
+ValueClassesGenerating.generateEscapingOuterDPointsMfvc:generateEscapingOuterDPointsMfvc·p0.9999        N/A     N/A          N/A  sample              26862.550             ns/op
+ValueClassesGenerating.generateEscapingOuterDPointsMfvc:generateEscapingOuterDPointsMfvc·p1.00          N/A     N/A          N/A  sample              77824.000             ns/op
+ValueClassesGenerating.generateEscapingOuterDPointsRegular                                              N/A     N/A          N/A  sample   998223        66.824 ±    2.134  ns/op
+ValueClassesGenerating.generateEscapingOuterDPointsRegular:generateEscapingOuterDPointsRegular·p0.00    N/A     N/A          N/A  sample                  1.000             ns/op
+ValueClassesGenerating.generateEscapingOuterDPointsRegular:generateEscapingOuterDPointsRegular·p0.50    N/A     N/A          N/A  sample                 42.000             ns/op
+ValueClassesGenerating.generateEscapingOuterDPointsRegular:generateEscapingOuterDPointsRegular·p0.90    N/A     N/A          N/A  sample                 47.000             ns/op
+ValueClassesGenerating.generateEscapingOuterDPointsRegular:generateEscapingOuterDPointsRegular·p0.95    N/A     N/A          N/A  sample                 50.000             ns/op
+ValueClassesGenerating.generateEscapingOuterDPointsRegular:generateEscapingOuterDPointsRegular·p0.99    N/A     N/A          N/A  sample                 61.000             ns/op
+ValueClassesGenerating.generateEscapingOuterDPointsRegular:generateEscapingOuterDPointsRegular·p0.999   N/A     N/A          N/A  sample              13824.000             ns/op
+ValueClassesGenerating.generateEscapingOuterDPointsRegular:generateEscapingOuterDPointsRegular·p0.9999  N/A     N/A          N/A  sample              26560.000             ns/op
+ValueClassesGenerating.generateEscapingOuterDPointsRegular:generateEscapingOuterDPointsRegular·p1.00    N/A     N/A          N/A  sample              66304.000             ns/op
+ValueClassesGenerating.generateOuterDPointsMfvc                                                         N/A     N/A          N/A  sample   811323        57.436 ±    2.350  ns/op
+ValueClassesGenerating.generateOuterDPointsMfvc:generateOuterDPointsMfvc·p0.00                          N/A     N/A          N/A  sample                  1.000             ns/op
+ValueClassesGenerating.generateOuterDPointsMfvc:generateOuterDPointsMfvc·p0.50                          N/A     N/A          N/A  sample                 35.000             ns/op
+ValueClassesGenerating.generateOuterDPointsMfvc:generateOuterDPointsMfvc·p0.90                          N/A     N/A          N/A  sample                 38.000             ns/op
+ValueClassesGenerating.generateOuterDPointsMfvc:generateOuterDPointsMfvc·p0.95                          N/A     N/A          N/A  sample                 39.000             ns/op
+ValueClassesGenerating.generateOuterDPointsMfvc:generateOuterDPointsMfvc·p0.99                          N/A     N/A          N/A  sample                 45.000             ns/op
+ValueClassesGenerating.generateOuterDPointsMfvc:generateOuterDPointsMfvc·p0.999                         N/A     N/A          N/A  sample               3933.744             ns/op
+ValueClassesGenerating.generateOuterDPointsMfvc:generateOuterDPointsMfvc·p0.9999                        N/A     N/A          N/A  sample              27355.763             ns/op
+ValueClassesGenerating.generateOuterDPointsMfvc:generateOuterDPointsMfvc·p1.00                          N/A     N/A          N/A  sample              87040.000             ns/op
+ValueClassesGenerating.generateOuterDPointsRegular                                                      N/A     N/A          N/A  sample   695757        68.064 ±    2.875  ns/op
+ValueClassesGenerating.generateOuterDPointsRegular:generateOuterDPointsRegular·p0.00                    N/A     N/A          N/A  sample                  1.000             ns/op
+ValueClassesGenerating.generateOuterDPointsRegular:generateOuterDPointsRegular·p0.50                    N/A     N/A          N/A  sample                 36.000             ns/op
+ValueClassesGenerating.generateOuterDPointsRegular:generateOuterDPointsRegular·p0.90                    N/A     N/A          N/A  sample                 42.000             ns/op
+ValueClassesGenerating.generateOuterDPointsRegular:generateOuterDPointsRegular·p0.95                    N/A     N/A          N/A  sample                 44.000             ns/op
+ValueClassesGenerating.generateOuterDPointsRegular:generateOuterDPointsRegular·p0.99                    N/A     N/A          N/A  sample                 61.000             ns/op
+ValueClassesGenerating.generateOuterDPointsRegular:generateOuterDPointsRegular·p0.999                   N/A     N/A          N/A  sample              14816.000             ns/op
+ValueClassesGenerating.generateOuterDPointsRegular:generateOuterDPointsRegular·p0.9999                  N/A     N/A          N/A  sample              27355.149             ns/op
+ValueClassesGenerating.generateOuterDPointsRegular:generateOuterDPointsRegular·p1.00                    N/A     N/A          N/A  sample              54720.000             ns/op
+ValueClassesInlineFunctionsUsageDouble.mfvc                                                             N/A     N/A          N/A  sample   859737        65.033 ±    5.745  ns/op
+ValueClassesInlineFunctionsUsageDouble.mfvc:mfvc·p0.00                                                  N/A     N/A          N/A  sample                  1.000             ns/op
+ValueClassesInlineFunctionsUsageDouble.mfvc:mfvc·p0.50                                                  N/A     N/A          N/A  sample                 39.000             ns/op
+ValueClassesInlineFunctionsUsageDouble.mfvc:mfvc·p0.90                                                  N/A     N/A          N/A  sample                 43.000             ns/op
+ValueClassesInlineFunctionsUsageDouble.mfvc:mfvc·p0.95                                                  N/A     N/A          N/A  sample                 46.000             ns/op
+ValueClassesInlineFunctionsUsageDouble.mfvc:mfvc·p0.99                                                  N/A     N/A          N/A  sample                 57.000             ns/op
+ValueClassesInlineFunctionsUsageDouble.mfvc:mfvc·p0.999                                                 N/A     N/A          N/A  sample               8374.736             ns/op
+ValueClassesInlineFunctionsUsageDouble.mfvc:mfvc·p0.9999                                                N/A     N/A          N/A  sample              26688.838             ns/op
+ValueClassesInlineFunctionsUsageDouble.mfvc:mfvc·p1.00                                                  N/A     N/A          N/A  sample            1363968.000             ns/op
+ValueClassesInlineFunctionsUsageDouble.regular                                                          N/A     N/A          N/A  sample  1092421        59.782 ±    1.771  ns/op
+ValueClassesInlineFunctionsUsageDouble.regular:regular·p0.00                                            N/A     N/A          N/A  sample                  1.000             ns/op
+ValueClassesInlineFunctionsUsageDouble.regular:regular·p0.50                                            N/A     N/A          N/A  sample                 41.000             ns/op
+ValueClassesInlineFunctionsUsageDouble.regular:regular·p0.90                                            N/A     N/A          N/A  sample                 44.000             ns/op
+ValueClassesInlineFunctionsUsageDouble.regular:regular·p0.95                                            N/A     N/A          N/A  sample                 46.000             ns/op
+ValueClassesInlineFunctionsUsageDouble.regular:regular·p0.99                                            N/A     N/A          N/A  sample                 55.000             ns/op
+ValueClassesInlineFunctionsUsageDouble.regular:regular·p0.999                                           N/A     N/A          N/A  sample               2760.000             ns/op
+ValueClassesInlineFunctionsUsageDouble.regular:regular·p0.9999                                          N/A     N/A          N/A  sample              26008.250             ns/op
+ValueClassesInlineFunctionsUsageDouble.regular:regular·p1.00                                            N/A     N/A          N/A  sample              66304.000             ns/op

@@ -1,0 +1,116 @@
+01-29 00:21:24.802  7584  7603 I Benchmark: VArraysGenerationBenchmark.sparse2D_10[Metric (timeNs) results: median 422.81296979317426, min 376.16672113544047, max 631.2907231896914, standardDeviation: 39.563992832042665, Metric (allocationCount) results: median 2.0, min 2.0, max 2.0000933750408514, standardDeviation: 5.114361618226967E-5]count=21419
+01-29 00:21:32.642  7584  7603 I Benchmark: VArraysGenerationBenchmark.sparse3D_10[Metric (timeNs) results: median 558.4962191468112, min 511.9863984401008, max 654.424168925667, standardDeviation: 35.19213489535423, Metric (allocationCount) results: median 3.0, min 3.0, max 3.000142673705236, standardDeviation: 6.725702964623995E-5]count=21027
+01-29 00:21:49.110  7584  7603 I Benchmark: VArraysGenerationBenchmark.regular2D_100000[Metric (timeNs) results: median 1.04975855E7, min 9976619.555555556, max 1.2077935888888888E7, standardDeviation: 383039.40196124517, Metric (allocationCount) results: median 100001.0, min 100000.66666666667, max 100001.22222222222, standardDeviation: 0.20184335693689556]count=9
+01-29 00:22:05.388  7584  7603 I Benchmark: VArraysGenerationBenchmark.sparse2D_100000[Metric (timeNs) results: median 2468722.792682927, min 2179017.8048780486, max 2737308.6341463416, standardDeviation: 121760.61329029451, Metric (allocationCount) results: median 2.1463414634146343, min 2.1463414634146343, max 2.1463414634146343, standardDeviation: 0.0]count=41
+01-29 00:22:23.024  7584  7603 I Benchmark: VArraysGenerationBenchmark.regular2D_10[Metric (timeNs) results: median 1242.392942583732, min 1147.9252652381942, max 1659.797014770127, standardDeviation: 73.8386624453633, Metric (allocationCount) results: median 11.0, min 11.0, max 11.000052007489078, standardDeviation: 2.848567492720519E-5]count=19228
+01-29 00:22:40.976  7584  7603 I Benchmark: VArraysGenerationBenchmark.regular3D_10[Metric (timeNs) results: median 1268.7573336115167, min 1170.763446693094, max 1490.1908199457541, standardDeviation: 64.12552429327982, Metric (allocationCount) results: median 11.0000417275193, min 10.9999582724807, max 11.000125182557897, standardDeviation: 6.597700104657074E-5]count=23965
+01-29 00:22:56.856  7584  7603 I Benchmark: VArraysGenerationBenchmark.dense3D_100000[Metric (timeNs) results: median 3785640.0, min 3348961.52, max 4148396.92, standardDeviation: 175603.72587713462, Metric (allocationCount) results: median 1.24, min 1.24, max 1.36, standardDeviation: 0.053665631459995]count=25
+01-29 00:23:02.004  7584  7603 I Benchmark: VArraysGenerationBenchmark.dense2D_10[Metric (timeNs) results: median 365.877386614859, min 348.75494071146244, max 426.943190192269, standardDeviation: 19.982149264418403, Metric (allocationCount) results: median 1.0, min 1.0, max 1.000100489046694, standardDeviation: 4.7370990901515425E-5]count=29854
+01-29 00:23:20.195  7584  7603 I Benchmark: VArraysGenerationBenchmark.dense3D_10[Metric (timeNs) results: median 479.20956690368456, min 459.1235509588451, max 644.4018961430726, standardDeviation: 40.26834017753298, Metric (allocationCount) results: median 1.0, min 1.0, max 1.0000861883214824, standardDeviation: 3.8544589140267735E-5]count=23205
+01-29 00:23:28.280  7584  7603 I Benchmark: VArraysGenerationBenchmark.sparse2D_1000[Metric (timeNs) results: median 17145.18771646271, min 16230.635880858925, max 18580.333179404293, standardDeviation: 497.22517215971806, Metric (allocationCount) results: median 2.0020780420226276, min 2.001154467790349, max 2.0020780420226276, standardDeviation: 3.9991937371709497E-4]count=4331
+01-29 00:23:36.205  7584  7603 I Benchmark: VArraysGenerationBenchmark.dense2D_1000[Metric (timeNs) results: median 32753.231365790605, min 30079.939250323136, max 36782.52089616544, standardDeviation: 1385.8259052945232, Metric (allocationCount) results: median 1.001292546316243, min 1.000861697544162, max 1.003877638948729, standardDeviation: 0.0012708213014866378]count=2321
+01-29 00:23:44.817  7584  7603 I Benchmark: VArraysGenerationBenchmark.regular2D_1000[Metric (timeNs) results: median 97421.6494140625, min 95850.9990234375, max 102005.37109375, standardDeviation: 1255.93683655131, Metric (allocationCount) results: median 1001.0, min 1000.998046875, max 1001.0009765625, standardDeviation: 0.0012732817197661423]count=1024
+01-29 00:23:53.605  7584  7603 I Benchmark: VArraysGenerationBenchmark.sparse3D_1000[Metric (timeNs) results: median 46089.5294117647, min 44700.325647058824, max 49902.714823529415, standardDeviation: 906.721597625672, Metric (allocationCount) results: median 3.004235294117647, min 3.003764705882353, max 3.0056470588235293, standardDeviation: 8.548659823333678E-4]count=2125
+01-29 00:24:01.322  7584  7603 I Benchmark: VArraysGenerationBenchmark.dense3D_1000[Metric (timeNs) results: median 44088.50194228635, min 41367.4550499445, max 48446.0, standardDeviation: 1500.5355467968973, Metric (allocationCount) results: median 1.0033296337402886, min 1.0016648168701443, max 1.0033296337402886, standardDeviation: 7.445287383462205E-4]count=1802
+01-29 00:24:18.054  7584  7603 I Benchmark: VArraysGenerationBenchmark.regular3D_100000[Metric (timeNs) results: median 1.15959063125E7, min 1.1264548125E7, max 1.2454399E7, standardDeviation: 291366.6209026236, Metric (allocationCount) results: median 100000.875, min 100000.875, max 100001.125, standardDeviation: 0.11180339887498948]count=8
+01-29 00:24:27.348  7584  7603 I Benchmark: VArraysGenerationBenchmark.regular3D_1000[Metric (timeNs) results: median 124144.67283163266, min 121804.7487244898, max 131736.90051020408, standardDeviation: 1844.8095896838681, Metric (allocationCount) results: median 1001.0, min 1000.9987244897959, max 1001.0038265306123, standardDeviation: 0.0019344070010546706]count=784
+01-29 00:24:43.865  7584  7603 I Benchmark: VArraysGenerationBenchmark.sparse3D_100000[Metric (timeNs) results: median 3633996.0344827585, min 3320185.6551724137, max 4007924.4137931033, standardDeviation: 145350.38688057277, Metric (allocationCount) results: median 3.206896551724138, min 3.206896551724138, max 3.310344827586207, standardDeviation: 0.04626347539654737]count=29
+01-29 00:24:59.341  7584  7603 I Benchmark: VArraysGenerationBenchmark.dense2D_100000[Metric (timeNs) results: median 2107017.743589744, min 1817038.4615384615, max 2455184.4102564105, standardDeviation: 150899.91526002655, Metric (allocationCount) results: median 1.1538461538461537, min 1.0769230769230769, max 1.2307692307692308, standardDeviation: 0.07692307692307698]count=39
+01-29 00:25:02.205  7584  7603 I Benchmark: VArraysSequentialAccessBenchmark.sparse2D_10[Metric (timeNs) results: median 85.19368054247505, min 83.40878696553023, max 87.94207948766245, standardDeviation: 1.1553758251899728, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=21236
+01-29 00:25:05.318  7584  7603 I Benchmark: VArraysSequentialAccessBenchmark.sparse3D_10[Metric (timeNs) results: median 106.45171226933533, min 103.45259443512467, max 111.061664834847, standardDeviation: 2.7149668821918005, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=34574
+01-29 00:25:14.231  7584  7603 I Benchmark: VArraysSequentialAccessBenchmark.regular2D_100000[Metric (timeNs) results: median 794846.9426229508, min 793736.762295082, max 835283.4180327869, standardDeviation: 7058.182876494518, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=122
+01-29 00:25:22.733  7584  7603 I Benchmark: VArraysSequentialAccessBenchmark.sparse2D_100000[Metric (timeNs) results: median 1012456.2929292929, min 986576.9191919192, max 1031735.4343434343, standardDeviation: 8916.3066179104, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=99
+01-29 00:25:25.956  7584  7603 I Benchmark: VArraysSequentialAccessBenchmark.regular2D_10[Metric (timeNs) results: median 207.2873303167421, min 204.74412920698882, max 208.75453314397066, standardDeviation: 0.8855670451929114, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=30277
+01-29 00:25:28.992  7584  7603 I Benchmark: VArraysSequentialAccessBenchmark.regular3D_10[Metric (timeNs) results: median 86.07472399767576, min 84.02091807088902, max 87.46592097617665, standardDeviation: 0.9517830320709164, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=34420
+01-29 00:25:37.877  7584  7603 I Benchmark: VArraysSequentialAccessBenchmark.dense3D_100000[Metric (timeNs) results: median 863350.6621621621, min 858216.2072072072, max 895135.4864864865, standardDeviation: 5629.697206474632, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=111
+01-29 00:25:40.816  7584  7603 I Benchmark: VArraysSequentialAccessBenchmark.dense2D_10[Metric (timeNs) results: median 85.94784854728418, min 77.39281555137508, max 93.30042700588253, standardDeviation: 3.4786656388375587, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=33489
+01-29 00:28:44.848  7584  7603 I Benchmark: VArraysSequentialAccessBenchmark.dense3D_10[Metric (timeNs) results: median 96.51631124089315, min 95.64050379022505, max 126.14497242131965, standardDeviation: 4.215335745954643, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=33903
+01-29 00:31:49.092  7584  7603 I Benchmark: VArraysSequentialAccessBenchmark.sparse2D_1000[Metric (timeNs) results: median 6.041346556781674, min 5.996759323927923, max 10.562285235368067, standardDeviation: 1.0017378461078232, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=35795
+01-29 00:35:05.527  7584  7603 I Benchmark: VArraysSequentialAccessBenchmark.dense2D_1000[Metric (timeNs) results: median 10378.844623089088, min 10239.03123352662, max 10616.864654717976, standardDeviation: 52.38492399667108, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=7588
+01-29 00:38:16.865  7584  7603 I Benchmark: VArraysSequentialAccessBenchmark.regular2D_1000[Metric (timeNs) results: median 3341.3130914826497, min 3336.541224548322, max 3417.3910238026956, standardDeviation: 11.869756467775014, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=13948
+01-29 00:41:32.787  7584  7603 I Benchmark: VArraysSequentialAccessBenchmark.sparse3D_1000[Metric (timeNs) results: median 9707.472579675286, min 9690.748887552616, max 9842.550571256765, standardDeviation: 19.945113067839568, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=8315
+01-29 00:44:48.809  7584  7603 I Benchmark: VArraysSequentialAccessBenchmark.dense3D_1000[Metric (timeNs) results: median 12186.319554725207, min 12026.09606103067, max 12544.413825315272, standardDeviation: 104.43183732920927, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=6423
+01-29 00:48:09.720  7584  7603 I Benchmark: VArraysSequentialAccessBenchmark.regular3D_100000[Metric (timeNs) results: median 805250.8177966102, min 802456.0, max 834258.1525423729, standardDeviation: 4482.6878806778195, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=118
+01-29 00:51:26.279  7584  7603 I Benchmark: VArraysSequentialAccessBenchmark.regular3D_1000[Metric (timeNs) results: median 23473.5741147406, min 23285.552841065055, max 24758.92643425748, standardDeviation: 255.8283980137584, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=3643
+01-29 00:54:46.509  7584  7603 I Benchmark: VArraysSequentialAccessBenchmark.sparse3D_100000[Metric (timeNs) results: median 1179517.6470588236, min 1158043.4470588234, max 1224602.2588235294, standardDeviation: 8779.737095071996, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=85
+01-29 00:58:04.725  7584  7603 I Benchmark: VArraysSequentialAccessBenchmark.dense2D_100000[Metric (timeNs) results: median 427881.49774774775, min 427377.509009009, max 432895.009009009, standardDeviation: 783.4482726108222, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=222
+
+Starting 36 tests on SM-A515F - 13
+
+376   ns           2 allocs    trace    VArraysGenerationBenchmark.sparse2D_10
+511   ns           3 allocs    trace    VArraysGenerationBenchmark.sparse3D_10
+9,976,619   ns      100001 allocs    trace    VArraysGenerationBenchmark.regular2D_100000
+2,179,017   ns           2 allocs    trace    VArraysGenerationBenchmark.sparse2D_100000
+1,147   ns          11 allocs    trace    VArraysGenerationBenchmark.regular2D_10
+1,170   ns          11 allocs    trace    VArraysGenerationBenchmark.regular3D_10
+3,348,961   ns           1 allocs    trace    VArraysGenerationBenchmark.dense3D_100000
+348   ns           1 allocs    trace    VArraysGenerationBenchmark.dense2D_10
+459   ns           1 allocs    trace    VArraysGenerationBenchmark.dense3D_10
+16,230   ns           2 allocs    trace    VArraysGenerationBenchmark.sparse2D_1000
+Timed out waiting for process (com.example.benchmark.test) to appear on samsung-sm_a515f-RZ8N11PKX3P.
+30,079   ns           1 allocs    trace    VArraysGenerationBenchmark.dense2D_1000
+95,850   ns        1001 allocs    trace    VArraysGenerationBenchmark.regular2D_1000
+44,700   ns           3 allocs    trace    VArraysGenerationBenchmark.sparse3D_1000
+41,367   ns           1 allocs    trace    VArraysGenerationBenchmark.dense3D_1000
+11,264,548   ns      100000 allocs    trace    VArraysGenerationBenchmark.regular3D_100000
+121,804   ns        1001 allocs    trace    VArraysGenerationBenchmark.regular3D_1000
+3,320,185   ns           3 allocs    trace    VArraysGenerationBenchmark.sparse3D_100000
+1,817,038   ns           1 allocs    trace    VArraysGenerationBenchmark.dense2D_100000
+83.4 ns           0 allocs    trace    VArraysSequentialAccessBenchmark.sparse2D_10
+103   ns           0 allocs    trace    VArraysSequentialAccessBenchmark.sparse3D_10
+793,736   ns           0 allocs    trace    VArraysSequentialAccessBenchmark.regular2D_100000
+986,576   ns           0 allocs    trace    VArraysSequentialAccessBenchmark.sparse2D_100000
+204   ns           0 allocs    trace    VArraysSequentialAccessBenchmark.regular2D_10
+84.0 ns           0 allocs    trace    VArraysSequentialAccessBenchmark.regular3D_10
+858,216   ns           0 allocs    trace    VArraysSequentialAccessBenchmark.dense3D_100000
+77.4 ns           0 allocs    trace    VArraysSequentialAccessBenchmark.dense2D_10
+95.6 ns           0 allocs    trace    VArraysSequentialAccessBenchmark.dense3D_10
+6.0 ns           0 allocs    trace    VArraysSequentialAccessBenchmark.sparse2D_1000
+10,239   ns           0 allocs    trace    VArraysSequentialAccessBenchmark.dense2D_1000
+3,336   ns           0 allocs    trace    VArraysSequentialAccessBenchmark.regular2D_1000
+9,690   ns           0 allocs    trace    VArraysSequentialAccessBenchmark.sparse3D_1000
+12,026   ns           0 allocs    trace    VArraysSequentialAccessBenchmark.dense3D_1000
+802,456   ns           0 allocs    trace    VArraysSequentialAccessBenchmark.regular3D_100000
+23,285   ns           0 allocs    trace    VArraysSequentialAccessBenchmark.regular3D_1000
+1,158,043   ns           0 allocs    trace    VArraysSequentialAccessBenchmark.sparse3D_100000
+427,377   ns           0 allocs    trace    VArraysSequentialAccessBenchmark.dense2D_100000
+
+01-29 04:52:25.088 10363 10383 I Benchmark: VArraysRandomAccessBenchmark.sparse2D_10[Metric (timeNs) results: median 126.89729720143299, min 125.42120384492604, max 128.39385663107865, standardDeviation: 0.5838444830231587, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=28193
+01-29 04:52:28.465 10363 10383 I Benchmark: VArraysRandomAccessBenchmark.sparse3D_10[Metric (timeNs) results: median 126.6614602881312, min 125.96356497387187, max 161.55134682564886, standardDeviation: 6.036445282508949, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=34637
+01-29 04:52:44.585 10363 10383 I Benchmark: VArraysRandomAccessBenchmark.regular2D_100000[Metric (timeNs) results: median 6944234.857142856, min 6841728.0, max 9062934.07142857, standardDeviation: 542228.6174780839, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=14
+01-29 04:52:55.275 10363 10383 I Benchmark: VArraysRandomAccessBenchmark.sparse2D_100000[Metric (timeNs) results: median 2821343.9428571425, min 2801001.0857142857, max 3665072.5142857144, standardDeviation: 192671.84620143514, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=35
+01-29 04:52:58.694 10363 10383 I Benchmark: VArraysRandomAccessBenchmark.regular2D_10[Metric (timeNs) results: median 228.10567689853843, min 225.77390058917354, max 333.8620813124573, standardDeviation: 15.079229036477724, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=30721
+01-29 04:53:01.794 10363 10383 I Benchmark: VArraysRandomAccessBenchmark.regular3D_10[Metric (timeNs) results: median 127.03180945833691, min 126.47984875827103, max 129.00495545816506, standardDeviation: 0.38607835629356874, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=34911
+01-29 04:53:15.557 10363 10383 I Benchmark: VArraysRandomAccessBenchmark.dense3D_100000[Metric (timeNs) results: median 6078022.8125, min 6049908.6875, max 6867949.5, standardDeviation: 181730.45419787528, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=16
+01-29 04:53:18.832 10363 10383 I Benchmark: VArraysRandomAccessBenchmark.dense2D_10[Metric (timeNs) results: median 130.5700203130601, min 129.23724459314136, max 132.97472816346038, standardDeviation: 0.6794015935604703, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=33476
+01-29 04:53:22.063 10363 10383 I Benchmark: VArraysRandomAccessBenchmark.dense3D_10[Metric (timeNs) results: median 141.8687142690468, min 140.65992882977483, max 154.64155291097887, standardDeviation: 2.0260261071691477, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=34284
+01-29 04:53:27.770 10363 10383 I Benchmark: VArraysRandomAccessBenchmark.sparse2D_1000[Metric (timeNs) results: median 4249.019107783497, min 4242.692793635938, max 4319.052019965684, standardDeviation: 12.303511276107042, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=12822
+01-29 04:53:34.776 10363 10383 I Benchmark: VArraysRandomAccessBenchmark.dense2D_1000[Metric (timeNs) results: median 11894.159658040666, min 11740.289741219964, max 12048.011860751694, standardDeviation: 61.33468652328027, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=6492
+01-29 04:53:40.505 10363 10383 I Benchmark: VArraysRandomAccessBenchmark.regular2D_1000[Metric (timeNs) results: median 4577.37878528657, min 4567.181094952951, max 4958.472112917023, standardDeviation: 58.6623548641527, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=11690
+01-29 04:53:47.238 10363 10383 I Benchmark: VArraysRandomAccessBenchmark.sparse3D_1000[Metric (timeNs) results: median 11220.665758330739, min 11197.78168794768, max 11297.528962939894, standardDeviation: 21.459300616523237, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=6422
+01-29 04:53:53.434 10363 10383 I Benchmark: VArraysRandomAccessBenchmark.dense3D_1000[Metric (timeNs) results: median 4251.817056832605, min 4240.494500070512, max 4285.1121844591735, standardDeviation: 8.56243270517175, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=14182
+01-29 04:54:06.230 10363 10383 I Benchmark: VArraysRandomAccessBenchmark.regular3D_100000[Metric (timeNs) results: median 2.0228408625E7, min 2.0085529E7, max 2.249195175E7, standardDeviation: 330895.92029300233, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=4
+01-29 04:54:12.224 10363 10383 I Benchmark: VArraysRandomAccessBenchmark.regular3D_1000[Metric (timeNs) results: median 4914.223625886525, min 4903.02774822695, max 5302.468617021276, standardDeviation: 58.18830049549704, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=11280
+01-29 04:54:23.723 10363 10383 I Benchmark: VArraysRandomAccessBenchmark.sparse3D_100000[Metric (timeNs) results: median 5349299.166666666, min 5313525.611111111, max 6010040.611111111, standardDeviation: 239862.96723419896, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=18
+01-29 04:54:32.130 10363 10383 I Benchmark: VArraysRandomAccessBenchmark.dense2D_100000[Metric (timeNs) results: median 1281383.8466666667, min 1271757.9466666668, max 1443282.56, standardDeviation: 24418.48021627461, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=75
+
+Starting 18 tests on SM-A515F - 13
+
+125   ns           0 allocs    trace    VArraysRandomAccessBenchmark.sparse2D_10
+125   ns           0 allocs    trace    VArraysRandomAccessBenchmark.sparse3D_10
+6,841,728   ns           0 allocs    trace    VArraysRandomAccessBenchmark.regular2D_100000
+2,801,001   ns           0 allocs    trace    VArraysRandomAccessBenchmark.sparse2D_100000
+225   ns           0 allocs    trace    VArraysRandomAccessBenchmark.regular2D_10
+126   ns           0 allocs    trace    VArraysRandomAccessBenchmark.regular3D_10
+6,049,908   ns           0 allocs    trace    VArraysRandomAccessBenchmark.dense3D_100000
+129   ns           0 allocs    trace    VArraysRandomAccessBenchmark.dense2D_10
+140   ns           0 allocs    trace    VArraysRandomAccessBenchmark.dense3D_10
+4,242   ns           0 allocs    trace    VArraysRandomAccessBenchmark.sparse2D_1000
+11,740   ns           0 allocs    trace    VArraysRandomAccessBenchmark.dense2D_1000
+4,567   ns           0 allocs    trace    VArraysRandomAccessBenchmark.regular2D_1000
+11,197   ns           0 allocs    trace    VArraysRandomAccessBenchmark.sparse3D_1000
+4,240   ns           0 allocs    trace    VArraysRandomAccessBenchmark.dense3D_1000
+20,085,529   ns           0 allocs    trace    VArraysRandomAccessBenchmark.regular3D_100000
+4,903   ns           0 allocs    trace    VArraysRandomAccessBenchmark.regular3D_1000
+5,313,525   ns           0 allocs    trace    VArraysRandomAccessBenchmark.sparse3D_100000
+1,271,757   ns           0 allocs    trace    VArraysRandomAccessBenchmark.dense2D_100000
