@@ -1,9 +1,24 @@
-01-29 01:57:39.751 28394 28413 I Benchmark: ShadowStackBenchmark.boxed_10[Metric (timeNs) results: median 672.2750768088051, min 616.532529795064, max 726.7151828218373, standardDeviation: 25.802194445089455, Metric (allocationCount) results: median 11.0, min 10.999932475775685, max 11.000033762112158, standardDeviation: 3.698454083566645E-5]count=29619
-01-29 01:57:56.579 28394 28413 I Benchmark: ShadowStackBenchmark.boxed_50[Metric (timeNs) results: median 3155.06637825555, min 2943.336304841811, max 3597.047981122181, standardDeviation: 139.76976459365162, Metric (allocationCount) results: median 50.999912602691836, min 50.99973780807551, max 51.000087397308164, standardDeviation: 1.2963115691622874E-4]count=11442
-01-29 01:58:00.048 28394 28413 I Benchmark: ShadowStackBenchmark.shadow_10[Metric (timeNs) results: median 409.622477290867, min 408.1299456501083, max 569.7792178176428, standardDeviation: 28.82762790678215, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=26311
-01-29 01:58:05.059 28394 28413 I Benchmark: ShadowStackBenchmark.shadow_50[Metric (timeNs) results: median 1809.790692692216, min 1806.159723875268, max 2031.869697691026, standardDeviation: 34.266341804625846, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=21005
-01-29 01:58:08.223 28394 28413 I Benchmark: ShadowStackBenchmark.shadow_3[Metric (timeNs) results: median 145.06973829923646, min 144.82875794136504, max 192.70114239086087, standardDeviation: 11.795378024171034, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=34314
-01-29 01:58:11.900 28394 28413 I Benchmark: ShadowStackBenchmark.boxed_3[Metric (timeNs) results: median 229.329362788295, min 215.16557780546356, max 355.52350420857516, standardDeviation: 29.36172587823702, Metric (allocationCount) results: median 4.0, min 4.0, max 4.0, standardDeviation: 0.0]count=32909
+02-06 05:19:03.228 20264 20283 I Benchmark: ShadowStackBenchmark.boxed_10[Metric (timeNs) results: median 655.0442057601961, min 592.149792333356, max 793.959590113706, standardDeviation: 46.85716792714464, Metric (allocationCount) results: median 11.000034043712127, min 11.0, max 11.000068087424253, standardDeviation: 2.848301309122197E-5]count=29374
+02-06 05:19:21.419 20264 20283 I Benchmark: ShadowStackBenchmark.boxed_50[Metric (timeNs) results: median 2935.980044935848, min 2814.550937148939, max 3201.6655235617573, standardDeviation: 86.26424070880327, Metric (allocationCount) results: median 51.0, min 50.99994087388399, max 51.00029563058003, standardDeviation: 1.3866303316464532E-4]count=16913
+02-06 05:19:24.978 20264 20283 I Benchmark: ShadowStackBenchmark.newShadow_10[Metric (timeNs) results: median 328.6989577352824, min 292.8957293644835, max 534.4035684317449, standardDeviation: 57.28343772219292, Metric (allocationCount) results: median 2.0, min 2.0, max 2.0000883275184385, standardDeviation: 3.950126710245163E-5]count=22643
+02-06 05:19:29.481 20264 20283 I Benchmark: ShadowStackBenchmark.newShadow_50[Metric (timeNs) results: median 959.9199502677889, min 936.3883703136955, max 1158.0660290742157, standardDeviation: 64.49407888512017, Metric (allocationCount) results: median 2.0, min 2.0, max 2.000114766641163, standardDeviation: 5.132520223793386E-5]count=26140
+02-06 05:19:32.514 20264 20283 I Benchmark: ShadowStackBenchmark.newShadowWithCache_1[Metric (timeNs) results: median 76.34564766990574, min 70.32259476494791, max 271.5697277422744, standardDeviation: 53.06376485114099, Metric (allocationCount) results: median 1.0, min 1.0, max 1.0, standardDeviation: 0.0]count=34269
+02-06 05:19:35.619 20264 20283 I Benchmark: ShadowStackBenchmark.newShadowWithCache_10[Metric (timeNs) results: median 113.85544383797759, min 108.17293881068659, max 227.26118931341568, standardDeviation: 26.65363111806273, Metric (allocationCount) results: median 1.0, min 1.0, max 1.0, standardDeviation: 0.0]count=34810
+02-06 05:19:39.094 20264 20283 I Benchmark: ShadowStackBenchmark.newShadowWithCache_50[Metric (timeNs) results: median 261.5371938040346, min 254.76494956772333, max 383.3291906820365, standardDeviation: 30.94664109816463, Metric (allocationCount) results: median 1.0, min 1.0, max 1.0000900576368876, standardDeviation: 4.027499959474686E-5]count=33312
+02-06 05:19:42.188 20264 20283 I Benchmark: ShadowStackBenchmark.existingShadow_1[Metric (timeNs) results: median 38.454401212155865, min 38.39446525057892, max 109.6240029732125, standardDeviation: 17.023616451403182, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=34979
+02-06 05:19:45.236 20264 20283 I Benchmark: ShadowStackBenchmark.boxedWithNewStorage_1[Metric (timeNs) results: median 43.866130285845884, min 40.941564236161085, max 198.78234836926796, standardDeviation: 32.97815476801416, Metric (allocationCount) results: median 1.0, min 1.0, max 1.0, standardDeviation: 0.0]count=34739
+02-06 05:19:48.426 20264 20283 I Benchmark: ShadowStackBenchmark.boxed_1[Metric (timeNs) results: median 113.04277273382331, min 109.2842196281885, max 250.5193543738291, standardDeviation: 26.473943821904456, Metric (allocationCount) results: median 2.0, min 1.999971177403084, max 2.0, standardDeviation: 1.2889857198475424E-5]count=34695
+02-06 05:19:51.402 20264 20283 I Benchmark: ShadowStackBenchmark.existingShadowWithCache_1[Metric (timeNs) results: median 10.300209745569505, min 10.296713986077759, max 84.34249323646533, standardDeviation: 18.880311629591137, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=32897
+02-06 05:19:54.618 20264 20283 I Benchmark: ShadowStackBenchmark.newShadow_1[Metric (timeNs) results: median 140.35925936632748, min 133.87043246993525, max 258.3289488899167, standardDeviation: 23.54648527621987, Metric (allocationCount) results: median 2.0, min 2.0, max 2.0, standardDeviation: 0.0]count=34592
+02-06 05:19:57.741 20264 20283 I Benchmark: ShadowStackBenchmark.existingShadowWithCache_10[Metric (timeNs) results: median 34.980667437332684, min 34.9397055244585, max 154.8348442443417, standardDeviation: 25.934388029578432, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=32872
+02-06 05:20:00.991 20264 20283 I Benchmark: ShadowStackBenchmark.existingShadowWithCache_50[Metric (timeNs) results: median 182.76242936961393, min 182.13715710723193, max 252.97395751128508, standardDeviation: 18.557297436324504, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=31679
+02-06 05:20:04.153 20264 20283 I Benchmark: ShadowStackBenchmark.boxedWithExistingStorage_10[Metric (timeNs) results: median 33.20176262152094, min 33.146400557254914, max 117.87619249523001, standardDeviation: 23.442766995089034, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=33019
+02-06 05:20:07.528 20264 20283 I Benchmark: ShadowStackBenchmark.boxedWithExistingStorage_50[Metric (timeNs) results: median 176.45840446487196, min 175.2639198949442, max 252.21851608667103, standardDeviation: 17.652353480041246, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=30460
+02-06 05:20:10.847 20264 20283 I Benchmark: ShadowStackBenchmark.existingShadow_10[Metric (timeNs) results: median 196.916622601014, min 196.03073190456934, max 258.1573299325018, standardDeviation: 16.71934414641648, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=32149
+02-06 05:20:14.806 20264 20283 I Benchmark: ShadowStackBenchmark.existingShadow_50[Metric (timeNs) results: median 833.2367632173168, min 831.1741415557112, max 1005.5163123880714, standardDeviation: 37.04148082583361, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=25686
+02-06 05:20:18.085 20264 20283 I Benchmark: ShadowStackBenchmark.boxedWithNewStorage_10[Metric (timeNs) results: median 87.40665180122784, min 82.52991428240473, max 159.0130313911734, standardDeviation: 19.729830709413616, Metric (allocationCount) results: median 1.0, min 1.0, max 1.0, standardDeviation: 0.0]count=34532
+02-06 05:20:21.548 20264 20283 I Benchmark: ShadowStackBenchmark.boxedWithNewStorage_50[Metric (timeNs) results: median 229.12478112763046, min 221.77555633376844, max 335.05287956448376, standardDeviation: 28.747912150706558, Metric (allocationCount) results: median 1.0, min 1.0, max 1.0, standardDeviation: 0.0]count=31411
+02-06 05:20:24.624 20264 20283 I Benchmark: ShadowStackBenchmark.boxedWithExistingStorage_1[Metric (timeNs) results: median 10.31929056209757, min 10.29642090608504, max 73.79288241777365, standardDeviation: 15.349593984380723, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=34478
 01-29 01:58:15.754 28394 28413 I Benchmark: ValueClassesBoxUsage.mfvcSmart[Metric (timeNs) results: median 481.08913507470277, min 472.6741538774266, max 569.6365145509368, standardDeviation: 24.825661182739083, Metric (allocationCount) results: median 2.0, min 2.0, max 2.000033878781719, standardDeviation: 1.5151051783766378E-5]count=29517
 01-29 01:58:33.366 28394 28413 I Benchmark: ValueClassesBoxUsage.mfvc[Metric (timeNs) results: median 4841.409233435103, min 4565.713672745276, max 5646.343675220728, standardDeviation: 231.72454153879082, Metric (allocationCount) results: median 101.99975245482301, min 101.99925736446902, max 102.0, standardDeviation: 3.0541720477633634E-4]count=12119
 01-29 01:58:37.404 28394 28413 I Benchmark: ValueClassesBoxUsage.regular[Metric (timeNs) results: median 591.788128236133, min 560.8446656125012, max 673.5318575016278, standardDeviation: 21.653081560633904, Metric (allocationCount) results: median 2.0, min 2.0, max 2.000093014603293, standardDeviation: 4.159739517262809E-5]count=32253
@@ -28,13 +43,27 @@
 01-29 02:00:31.595 28394 28413 I Benchmark: ValueClassesSearch.searchDPointsRegularOuter1000[Metric (timeNs) results: median 25072.02068865741, min 24112.64699074074, max 27554.78761574074, standardDeviation: 736.2933629387841, Metric (allocationCount) results: median 224.00115740740742, min 224.0, max 224.00144675925927, standardDeviation: 7.489686982420188E-4]count=3456
 01-29 02:00:36.636 28394 28413 I Benchmark: ValueClassesSearch.searchDPointsMFVC100[Metric (timeNs) results: median 1792.8688838626294, min 1780.774187592319, max 1822.1331240768095, standardDeviation: 9.378565678216823, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=21664
 Starting 29 tests on SM-A515F - 13
-
-616   ns          11 allocs    trace    ShadowStackBenchmark.boxed_10
-2,943   ns          50 allocs    trace    ShadowStackBenchmark.boxed_50
-408   ns           0 allocs    trace    ShadowStackBenchmark.shadow_10
-1,806   ns           0 allocs    trace    ShadowStackBenchmark.shadow_50
-144   ns           0 allocs    trace    ShadowStackBenchmark.shadow_3
-215   ns           4 allocs    trace    ShadowStackBenchmark.boxed_3
+592   ns          11 allocs    trace    ShadowStackBenchmark.boxed_10
+2,814   ns          51 allocs    trace    ShadowStackBenchmark.boxed_50
+292   ns           2 allocs    trace    ShadowStackBenchmark.newShadow_10
+936   ns           2 allocs    trace    ShadowStackBenchmark.newShadow_50
+70.3 ns           1 allocs    trace    ShadowStackBenchmark.newShadowWithCache_1
+108   ns           1 allocs    trace    ShadowStackBenchmark.newShadowWithCache_10
+254   ns           1 allocs    trace    ShadowStackBenchmark.newShadowWithCache_50
+38.4 ns           0 allocs    trace    ShadowStackBenchmark.existingShadow_1
+40.9 ns           1 allocs    trace    ShadowStackBenchmark.boxedWithNewStorage_1
+109   ns           2 allocs    trace    ShadowStackBenchmark.boxed_1
+10.3 ns           0 allocs    trace    ShadowStackBenchmark.existingShadowWithCache_1
+133   ns           2 allocs    trace    ShadowStackBenchmark.newShadow_1
+34.9 ns           0 allocs    trace    ShadowStackBenchmark.existingShadowWithCache_10
+182   ns           0 allocs    trace    ShadowStackBenchmark.existingShadowWithCache_50
+33.1 ns           0 allocs    trace    ShadowStackBenchmark.boxedWithExistingStorage_10
+175   ns           0 allocs    trace    ShadowStackBenchmark.boxedWithExistingStorage_50
+196   ns           0 allocs    trace    ShadowStackBenchmark.existingShadow_10
+831   ns           0 allocs    trace    ShadowStackBenchmark.existingShadow_50
+82.5 ns           1 allocs    trace    ShadowStackBenchmark.boxedWithNewStorage_10
+221   ns           1 allocs    trace    ShadowStackBenchmark.boxedWithNewStorage_50
+10.3 ns           0 allocs    trace    ShadowStackBenchmark.boxedWithExistingStorage_1
 472   ns           2 allocs    trace    ValueClassesBoxUsage.mfvcSmart
 4,565   ns         101 allocs    trace    ValueClassesBoxUsage.mfvc
 560   ns           2 allocs    trace    ValueClassesBoxUsage.regular

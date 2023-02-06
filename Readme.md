@@ -12,24 +12,54 @@ This benchmark compares shadow stack-based function returns to box-based ones.
 ## ART
 | Size | Type | Time |
 | ---: | :---: | :--- |
-| 3 | Boxed | 229.33 ± 29.36 ns |
-| 3 | Shadow | 145.07 ± 11.80 ns (63% of boxed) |
-| 10 | Boxed | 672.28 ± 25.80 ns |
-| 10 | Shadow | 409.62 ± 28.83 ns (61% of boxed) |
-| 50 | Boxed | 3.16 ± 0.14 mcs |
-| 50 | Shadow | 1.81 ± 0.03 mcs (57% of boxed) |
+| 1 | Boxed | 113.04 ± 26.47 ns |
+| 1 | BoxedWithExistingStorage | 10.32 ± 15.35 ns (9% of boxed) |
+| 1 | BoxedWithNewStorage | 43.87 ± 32.98 ns (39% of boxed) |
+| 1 | ExistingShadow | 38.45 ± 17.02 ns (34% of boxed) |
+| 1 | ExistingShadowWithCache | 10.30 ± 18.88 ns (9% of boxed) |
+| 1 | NewShadow | 140.36 ± 23.55 ns (124% of boxed) |
+| 1 | NewShadowWithCache | 76.35 ± 53.06 ns (68% of boxed) |
+| 10 | Boxed | 655.04 ± 46.86 ns |
+| 10 | BoxedWithExistingStorage | 33.20 ± 23.44 ns (5% of boxed) |
+| 10 | BoxedWithNewStorage | 87.41 ± 19.73 ns (13% of boxed) |
+| 10 | ExistingShadow | 196.92 ± 16.72 ns (30% of boxed) |
+| 10 | ExistingShadowWithCache | 34.98 ± 25.93 ns (5% of boxed) |
+| 10 | NewShadow | 328.70 ± 57.28 ns (50% of boxed) |
+| 10 | NewShadowWithCache | 113.86 ± 26.65 ns (17% of boxed) |
+| 50 | Boxed | 2.94 ± 0.09 mcs |
+| 50 | BoxedWithExistingStorage | 176.46 ± 17.65 ns (6% of boxed) |
+| 50 | BoxedWithNewStorage | 229.12 ± 28.75 ns (8% of boxed) |
+| 50 | ExistingShadow | 833.24 ± 37.04 ns (28% of boxed) |
+| 50 | ExistingShadowWithCache | 182.76 ± 18.56 ns (6% of boxed) |
+| 50 | NewShadow | 959.92 ± 64.49 ns (33% of boxed) |
+| 50 | NewShadowWithCache | 261.54 ± 30.95 ns (9% of boxed) |
 
 ![image](pics/ShadowStackData_art.svg)
 
 ## Hotspot
 | Size | Type | Time |
 | ---: | :---: | :--- |
-| 3 | Boxed | 78.79 ± 8.59 ns |
-| 3 | Shadow | 68.69 ± 2.44 ns (87% of boxed) |
-| 10 | Boxed | 118.98 ± 14.40 ns |
-| 10 | Shadow | 102.85 ± 5.40 ns (86% of boxed) |
-| 50 | Boxed | 327.28 ± 19.18 ns |
-| 50 | Shadow | 304.72 ± 4.09 ns (93% of boxed) |
+| 1 | Boxed | 74.28 ± 1.12 ns |
+| 1 | BoxedWithExistingStorage | 49.03 ± 0.36 ns (66% of boxed) |
+| 1 | BoxedWithNewStorage | 45.53 ± 0.91 ns (61% of boxed) |
+| 1 | ExistingShadow | 45.35 ± 0.25 ns (61% of boxed) |
+| 1 | ExistingShadowWithCache | 48.37 ± 0.32 ns (65% of boxed) |
+| 1 | NewShadow | 54.54 ± 0.89 ns (73% of boxed) |
+| 1 | NewShadowWithCache | 47.81 ± 0.64 ns (64% of boxed) |
+| 10 | Boxed | 94.06 ± 1.77 ns |
+| 10 | BoxedWithExistingStorage | 61.57 ± 0.32 ns (65% of boxed) |
+| 10 | BoxedWithNewStorage | 64.99 ± 0.79 ns (69% of boxed) |
+| 10 | ExistingShadow | 70.34 ± 0.37 ns (75% of boxed) |
+| 10 | ExistingShadowWithCache | 61.16 ± 0.32 ns (65% of boxed) |
+| 10 | NewShadow | 67.61 ± 0.67 ns (72% of boxed) |
+| 10 | NewShadowWithCache | 64.96 ± 0.90 ns (69% of boxed) |
+| 50 | Boxed | 287.58 ± 3.67 ns |
+| 50 | BoxedWithExistingStorage | 184.68 ± 0.51 ns (64% of boxed) |
+| 50 | BoxedWithNewStorage | 186.62 ± 0.81 ns (65% of boxed) |
+| 50 | ExistingShadow | 206.14 ± 0.46 ns (72% of boxed) |
+| 50 | ExistingShadowWithCache | 186.02 ± 0.96 ns (65% of boxed) |
+| 50 | NewShadow | 213.74 ± 1.30 ns (74% of boxed) |
+| 50 | NewShadowWithCache | 189.38 ± 1.02 ns (66% of boxed) |
 
 ![image](pics/ShadowStackData_hotspot.svg)
 

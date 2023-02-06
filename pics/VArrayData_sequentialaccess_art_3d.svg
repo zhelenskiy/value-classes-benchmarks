@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2023-01-30T12:46:25.281457</dc:date>
+    <dc:date>2023-02-06T14:02:35.702447</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -43,7 +43,7 @@ L 100.253793 404.12
 L 100.253793 171.371948 
 L 49.44 171.371948 
 z
-" clip-path="url(#p942948210b)" style="fill: #1f77b4"/>
+" clip-path="url(#p9fe1161a1c)" style="fill: #1f77b4"/>
    </g>
    <g id="patch_4">
     <path d="M 218.81931 404.12 
@@ -51,7 +51,7 @@ L 269.633103 404.12
 L 269.633103 216.88958 
 L 218.81931 216.88958 
 z
-" clip-path="url(#p942948210b)" style="fill: #1f77b4"/>
+" clip-path="url(#p9fe1161a1c)" style="fill: #1f77b4"/>
    </g>
    <g id="patch_5">
     <path d="M 388.198621 404.12 
@@ -59,7 +59,7 @@ L 439.012414 404.12
 L 439.012414 192.831192 
 L 388.198621 192.831192 
 z
-" clip-path="url(#p942948210b)" style="fill: #1f77b4"/>
+" clip-path="url(#p9fe1161a1c)" style="fill: #1f77b4"/>
    </g>
    <g id="patch_6">
     <path d="M 100.253793 404.12 
@@ -67,7 +67,7 @@ L 151.067586 404.12
 L 151.067586 196.551724 
 L 100.253793 196.551724 
 z
-" clip-path="url(#p942948210b)" style="fill: #ff7f0e"/>
+" clip-path="url(#p9fe1161a1c)" style="fill: #ff7f0e"/>
    </g>
    <g id="patch_7">
     <path d="M 269.633103 404.12 
@@ -75,7 +75,7 @@ L 320.446897 404.12
 L 320.446897 43.472381 
 L 269.633103 43.472381 
 z
-" clip-path="url(#p942948210b)" style="fill: #ff7f0e"/>
+" clip-path="url(#p9fe1161a1c)" style="fill: #ff7f0e"/>
    </g>
    <g id="patch_8">
     <path d="M 439.012414 404.12 
@@ -83,7 +83,7 @@ L 489.826207 404.12
 L 489.826207 207.050035 
 L 439.012414 207.050035 
 z
-" clip-path="url(#p942948210b)" style="fill: #ff7f0e"/>
+" clip-path="url(#p9fe1161a1c)" style="fill: #ff7f0e"/>
    </g>
    <g id="patch_9">
     <path d="M 151.067586 404.12 
@@ -91,7 +91,7 @@ L 201.881379 404.12
 L 201.881379 147.412835 
 L 151.067586 147.412835 
 z
-" clip-path="url(#p942948210b)" style="fill: #2ca02c"/>
+" clip-path="url(#p9fe1161a1c)" style="fill: #2ca02c"/>
    </g>
    <g id="patch_10">
     <path d="M 320.446897 404.12 
@@ -99,7 +99,7 @@ L 371.26069 404.12
 L 371.26069 254.974546 
 L 320.446897 254.974546 
 z
-" clip-path="url(#p942948210b)" style="fill: #2ca02c"/>
+" clip-path="url(#p9fe1161a1c)" style="fill: #2ca02c"/>
    </g>
    <g id="patch_11">
     <path d="M 489.826207 404.12 
@@ -107,18 +107,18 @@ L 540.64 404.12
 L 540.64 115.45528 
 L 489.826207 115.45528 
 z
-" clip-path="url(#p942948210b)" style="fill: #2ca02c"/>
+" clip-path="url(#p9fe1161a1c)" style="fill: #2ca02c"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
       <defs>
-       <path id="m8d10733eb6" d="M 0 0 
+       <path id="mcbe9575418" d="M 0 0 
 L 0 3.5 
 " style="stroke: #000000; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#m8d10733eb6" x="125.66069" y="404.12" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mcbe9575418" x="125.66069" y="404.12" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
@@ -169,7 +169,7 @@ z
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#m8d10733eb6" x="295.04" y="404.12" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mcbe9575418" x="295.04" y="404.12" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
@@ -185,7 +185,7 @@ z
     <g id="xtick_3">
      <g id="line2d_3">
       <g>
-       <use xlink:href="#m8d10733eb6" x="464.41931" y="404.12" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mcbe9575418" x="464.41931" y="404.12" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_3">
@@ -1179,7 +1179,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p942948210b">
+  <clipPath id="p9fe1161a1c">
    <rect x="24.88" y="25.44" width="540.32" height="378.68"/>
   </clipPath>
  </defs>
