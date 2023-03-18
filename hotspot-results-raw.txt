@@ -728,6 +728,7 @@ ValueClassesBoxUsageDouble.regular:regular·p0.99                               
 ValueClassesBoxUsageDouble.regular:regular·p0.999                                                       N/A     N/A         1000  sample                2196.000             ns/op
 ValueClassesBoxUsageDouble.regular:regular·p0.9999                                                      N/A     N/A         1000  sample               23680.000             ns/op
 ValueClassesBoxUsageDouble.regular:regular·p1.00                                                        N/A     N/A         1000  sample             1777664.000             ns/op
+
 ValueClassesComplexUsageDouble.searchMfvc                                                               N/A      10          N/A  sample    827775       139.477 ±    4.325  ns/op
 ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.00                                              N/A      10          N/A  sample                  55.000             ns/op
 ValueClassesComplexUsageDouble.searchMfvc:searchMfvc·p0.50                                              N/A      10          N/A  sample                  95.000             ns/op
@@ -926,3 +927,142 @@ ValueClassesInlineFunctionsUsageDouble.regular:regular·p0.99                   
 ValueClassesInlineFunctionsUsageDouble.regular:regular·p0.999                                           N/A     N/A          N/A  sample                2760.000             ns/op
 ValueClassesInlineFunctionsUsageDouble.regular:regular·p0.9999                                          N/A     N/A          N/A  sample               26008.250             ns/op
 ValueClassesInlineFunctionsUsageDouble.regular:regular·p1.00                                            N/A     N/A          N/A  sample               66304.000             ns/op
+
+Benchmark                                                                               Mode       Cnt        Score   Error  Units
+ValueClassesBoxUsageDouble.mfvcNotUsingLocally                                        sample  10564206       54.331 ± 0.522  ns/op
+ValueClassesBoxUsageDouble.mfvcNotUsingLocally:mfvcNotUsingLocally·p0.00              sample                  1.000          ns/op
+ValueClassesBoxUsageDouble.mfvcNotUsingLocally:mfvcNotUsingLocally·p0.50              sample                 38.000          ns/op
+ValueClassesBoxUsageDouble.mfvcNotUsingLocally:mfvcNotUsingLocally·p0.90              sample                 45.000          ns/op
+ValueClassesBoxUsageDouble.mfvcNotUsingLocally:mfvcNotUsingLocally·p0.95              sample                 49.000          ns/op
+ValueClassesBoxUsageDouble.mfvcNotUsingLocally:mfvcNotUsingLocally·p0.99              sample                 53.000          ns/op
+ValueClassesBoxUsageDouble.mfvcNotUsingLocally:mfvcNotUsingLocally·p0.999             sample               2792.000          ns/op
+ValueClassesBoxUsageDouble.mfvcNotUsingLocally:mfvcNotUsingLocally·p0.9999            sample              24192.000          ns/op
+ValueClassesBoxUsageDouble.mfvcNotUsingLocally:mfvcNotUsingLocally·p1.00              sample              85504.000          ns/op
+ValueClassesBoxUsageDouble.mfvcNotUsingPassed                                         sample   7679948       79.350 ± 0.834  ns/op
+ValueClassesBoxUsageDouble.mfvcNotUsingPassed:mfvcNotUsingPassed·p0.00                sample                  1.000          ns/op
+ValueClassesBoxUsageDouble.mfvcNotUsingPassed:mfvcNotUsingPassed·p0.50                sample                 52.000          ns/op
+ValueClassesBoxUsageDouble.mfvcNotUsingPassed:mfvcNotUsingPassed·p0.90                sample                 59.000          ns/op
+ValueClassesBoxUsageDouble.mfvcNotUsingPassed:mfvcNotUsingPassed·p0.95                sample                 61.000          ns/op
+ValueClassesBoxUsageDouble.mfvcNotUsingPassed:mfvcNotUsingPassed·p0.99                sample                 73.000          ns/op
+ValueClassesBoxUsageDouble.mfvcNotUsingPassed:mfvcNotUsingPassed·p0.999               sample              14160.000          ns/op
+ValueClassesBoxUsageDouble.mfvcNotUsingPassed:mfvcNotUsingPassed·p0.9999              sample              27648.000          ns/op
+ValueClassesBoxUsageDouble.mfvcNotUsingPassed:mfvcNotUsingPassed·p1.00                sample             112000.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartNotUsingLocally                                   sample  11105749       57.986 ± 0.645  ns/op
+ValueClassesBoxUsageDouble.mfvcSmartNotUsingLocally:mfvcSmartNotUsingLocally·p0.00    sample                  1.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartNotUsingLocally:mfvcSmartNotUsingLocally·p0.50    sample                 35.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartNotUsingLocally:mfvcSmartNotUsingLocally·p0.90    sample                 42.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartNotUsingLocally:mfvcSmartNotUsingLocally·p0.95    sample                 44.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartNotUsingLocally:mfvcSmartNotUsingLocally·p0.99    sample                 49.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartNotUsingLocally:mfvcSmartNotUsingLocally·p0.999   sample               3709.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartNotUsingLocally:mfvcSmartNotUsingLocally·p0.9999  sample              26752.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartNotUsingLocally:mfvcSmartNotUsingLocally·p1.00    sample             117632.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartNotUsingPassed                                    sample  11035350       84.334 ± 1.170  ns/op
+ValueClassesBoxUsageDouble.mfvcSmartNotUsingPassed:mfvcSmartNotUsingPassed·p0.00      sample                  1.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartNotUsingPassed:mfvcSmartNotUsingPassed·p0.50      sample                 57.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartNotUsingPassed:mfvcSmartNotUsingPassed·p0.90      sample                 65.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartNotUsingPassed:mfvcSmartNotUsingPassed·p0.95      sample                 69.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartNotUsingPassed:mfvcSmartNotUsingPassed·p0.99      sample                 82.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartNotUsingPassed:mfvcSmartNotUsingPassed·p0.999     sample              14192.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartNotUsingPassed:mfvcSmartNotUsingPassed·p0.9999    sample              27200.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartNotUsingPassed:mfvcSmartNotUsingPassed·p1.00      sample            1558528.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartUsingLocally                                      sample   9249609       68.561 ± 1.408  ns/op
+ValueClassesBoxUsageDouble.mfvcSmartUsingLocally:mfvcSmartUsingLocally·p0.00          sample                  1.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartUsingLocally:mfvcSmartUsingLocally·p0.50          sample                 39.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartUsingLocally:mfvcSmartUsingLocally·p0.90          sample                 45.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartUsingLocally:mfvcSmartUsingLocally·p0.95          sample                 48.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartUsingLocally:mfvcSmartUsingLocally·p0.99          sample                 59.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartUsingLocally:mfvcSmartUsingLocally·p0.999         sample              14416.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartUsingLocally:mfvcSmartUsingLocally·p0.9999        sample              27456.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartUsingLocally:mfvcSmartUsingLocally·p1.00          sample            1675264.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartUsingPassed                                       sample   9920463       82.487 ± 0.928  ns/op
+ValueClassesBoxUsageDouble.mfvcSmartUsingPassed:mfvcSmartUsingPassed·p0.00            sample                  1.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartUsingPassed:mfvcSmartUsingPassed·p0.50            sample                 60.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartUsingPassed:mfvcSmartUsingPassed·p0.90            sample                 66.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartUsingPassed:mfvcSmartUsingPassed·p0.95            sample                 68.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartUsingPassed:mfvcSmartUsingPassed·p0.99            sample                 83.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartUsingPassed:mfvcSmartUsingPassed·p0.999           sample               3272.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartUsingPassed:mfvcSmartUsingPassed·p0.9999          sample              26432.000          ns/op
+ValueClassesBoxUsageDouble.mfvcSmartUsingPassed:mfvcSmartUsingPassed·p1.00            sample            1368064.000          ns/op
+ValueClassesBoxUsageDouble.mfvcUsingLocally                                           sample   9759214       83.204 ± 1.828  ns/op
+ValueClassesBoxUsageDouble.mfvcUsingLocally:mfvcUsingLocally·p0.00                    sample                  1.000          ns/op
+ValueClassesBoxUsageDouble.mfvcUsingLocally:mfvcUsingLocally·p0.50                    sample                 60.000          ns/op
+ValueClassesBoxUsageDouble.mfvcUsingLocally:mfvcUsingLocally·p0.90                    sample                 72.000          ns/op
+ValueClassesBoxUsageDouble.mfvcUsingLocally:mfvcUsingLocally·p0.95                    sample                 76.000          ns/op
+ValueClassesBoxUsageDouble.mfvcUsingLocally:mfvcUsingLocally·p0.99                    sample                249.000          ns/op
+ValueClassesBoxUsageDouble.mfvcUsingLocally:mfvcUsingLocally·p0.999                   sample               3344.000          ns/op
+ValueClassesBoxUsageDouble.mfvcUsingLocally:mfvcUsingLocally·p0.9999                  sample              24192.000          ns/op
+ValueClassesBoxUsageDouble.mfvcUsingLocally:mfvcUsingLocally·p1.00                    sample            1525760.000          ns/op
+ValueClassesBoxUsageDouble.mfvcUsingPassed                                            sample   6898565       97.323 ± 3.110  ns/op
+ValueClassesBoxUsageDouble.mfvcUsingPassed:mfvcUsingPassed·p0.00                      sample                  4.000          ns/op
+ValueClassesBoxUsageDouble.mfvcUsingPassed:mfvcUsingPassed·p0.50                      sample                 69.000          ns/op
+ValueClassesBoxUsageDouble.mfvcUsingPassed:mfvcUsingPassed·p0.90                      sample                 80.000          ns/op
+ValueClassesBoxUsageDouble.mfvcUsingPassed:mfvcUsingPassed·p0.95                      sample                 85.000          ns/op
+ValueClassesBoxUsageDouble.mfvcUsingPassed:mfvcUsingPassed·p0.99                      sample                263.000          ns/op
+ValueClassesBoxUsageDouble.mfvcUsingPassed:mfvcUsingPassed·p0.999                     sample               3368.000          ns/op
+ValueClassesBoxUsageDouble.mfvcUsingPassed:mfvcUsingPassed·p0.9999                    sample              24128.000          ns/op
+ValueClassesBoxUsageDouble.mfvcUsingPassed:mfvcUsingPassed·p1.00                      sample            1615872.000          ns/op
+ValueClassesBoxUsageDouble.regularNotUsingLocally                                     sample  10642329       54.938 ± 0.551  ns/op
+ValueClassesBoxUsageDouble.regularNotUsingLocally:regularNotUsingLocally·p0.00        sample                  1.000          ns/op
+ValueClassesBoxUsageDouble.regularNotUsingLocally:regularNotUsingLocally·p0.50        sample                 38.000          ns/op
+ValueClassesBoxUsageDouble.regularNotUsingLocally:regularNotUsingLocally·p0.90        sample                 45.000          ns/op
+ValueClassesBoxUsageDouble.regularNotUsingLocally:regularNotUsingLocally·p0.95        sample                 49.000          ns/op
+ValueClassesBoxUsageDouble.regularNotUsingLocally:regularNotUsingLocally·p0.99        sample                 52.000          ns/op
+ValueClassesBoxUsageDouble.regularNotUsingLocally:regularNotUsingLocally·p0.999       sample               2788.000          ns/op
+ValueClassesBoxUsageDouble.regularNotUsingLocally:regularNotUsingLocally·p0.9999      sample              25056.000          ns/op
+ValueClassesBoxUsageDouble.regularNotUsingLocally:regularNotUsingLocally·p1.00        sample             213248.000          ns/op
+ValueClassesBoxUsageDouble.regularNotUsingPassed                                      sample  10988988       75.789 ± 1.331  ns/op
+ValueClassesBoxUsageDouble.regularNotUsingPassed:regularNotUsingPassed·p0.00          sample                  1.000          ns/op
+ValueClassesBoxUsageDouble.regularNotUsingPassed:regularNotUsingPassed·p0.50          sample                 60.000          ns/op
+ValueClassesBoxUsageDouble.regularNotUsingPassed:regularNotUsingPassed·p0.90          sample                 64.000          ns/op
+ValueClassesBoxUsageDouble.regularNotUsingPassed:regularNotUsingPassed·p0.95          sample                 65.000          ns/op
+ValueClassesBoxUsageDouble.regularNotUsingPassed:regularNotUsingPassed·p0.99          sample                 76.000          ns/op
+ValueClassesBoxUsageDouble.regularNotUsingPassed:regularNotUsingPassed·p0.999         sample               3024.000          ns/op
+ValueClassesBoxUsageDouble.regularNotUsingPassed:regularNotUsingPassed·p0.9999        sample              23968.000          ns/op
+ValueClassesBoxUsageDouble.regularNotUsingPassed:regularNotUsingPassed·p1.00          sample            1626112.000          ns/op
+ValueClassesBoxUsageDouble.regularUsingLocally                                        sample   9475163       66.150 ± 1.206  ns/op
+ValueClassesBoxUsageDouble.regularUsingLocally:regularUsingLocally·p0.00              sample                  1.000          ns/op
+ValueClassesBoxUsageDouble.regularUsingLocally:regularUsingLocally·p0.50              sample                 39.000          ns/op
+ValueClassesBoxUsageDouble.regularUsingLocally:regularUsingLocally·p0.90              sample                 45.000          ns/op
+ValueClassesBoxUsageDouble.regularUsingLocally:regularUsingLocally·p0.95              sample                 47.000          ns/op
+ValueClassesBoxUsageDouble.regularUsingLocally:regularUsingLocally·p0.99              sample                 55.000          ns/op
+ValueClassesBoxUsageDouble.regularUsingLocally:regularUsingLocally·p0.999             sample              14208.000          ns/op
+ValueClassesBoxUsageDouble.regularUsingLocally:regularUsingLocally·p0.9999            sample              26944.000          ns/op
+ValueClassesBoxUsageDouble.regularUsingLocally:regularUsingLocally·p1.00              sample            1406976.000          ns/op
+ValueClassesBoxUsageDouble.regularUsingPassed                                         sample  11426159       79.956 ± 1.198  ns/op
+ValueClassesBoxUsageDouble.regularUsingPassed:regularUsingPassed·p0.00                sample                  1.000          ns/op
+ValueClassesBoxUsageDouble.regularUsingPassed:regularUsingPassed·p0.50                sample                 54.000          ns/op
+ValueClassesBoxUsageDouble.regularUsingPassed:regularUsingPassed·p0.90                sample                 60.000          ns/op
+ValueClassesBoxUsageDouble.regularUsingPassed:regularUsingPassed·p0.95                sample                 62.000          ns/op
+ValueClassesBoxUsageDouble.regularUsingPassed:regularUsingPassed·p0.99                sample                 71.000          ns/op
+ValueClassesBoxUsageDouble.regularUsingPassed:regularUsingPassed·p0.999               sample              14096.000          ns/op
+ValueClassesBoxUsageDouble.regularUsingPassed:regularUsingPassed·p0.9999              sample              27136.000          ns/op
+ValueClassesBoxUsageDouble.regularUsingPassed:regularUsingPassed·p1.00                sample            1464320.000          ns/op
+
+Benchmark                                                       Mode       Cnt        Score   Error  Units
+ValueClassesLongPack.box                                      sample  41752161       60.955 ± 0.574  ns/op
+ValueClassesLongPack.box:box·p0.00                            sample                  1.000          ns/op
+ValueClassesLongPack.box:box·p0.50                            sample                 38.000          ns/op
+ValueClassesLongPack.box:box·p0.90                            sample                 44.000          ns/op
+ValueClassesLongPack.box:box·p0.95                            sample                 46.000          ns/op
+ValueClassesLongPack.box:box·p0.99                            sample                 53.000          ns/op
+ValueClassesLongPack.box:box·p0.999                           sample               3620.000          ns/op
+ValueClassesLongPack.box:box·p0.9999                          sample              26656.000          ns/op
+ValueClassesLongPack.box:box·p1.00                            sample            2908160.000          ns/op
+ValueClassesLongPack.existingWrapper                          sample  42497584       59.023 ± 0.330  ns/op
+ValueClassesLongPack.existingWrapper:existingWrapper·p0.00    sample                  1.000          ns/op
+ValueClassesLongPack.existingWrapper:existingWrapper·p0.50    sample                 36.000          ns/op
+ValueClassesLongPack.existingWrapper:existingWrapper·p0.90    sample                 39.000          ns/op
+ValueClassesLongPack.existingWrapper:existingWrapper·p0.95    sample                 40.000          ns/op
+ValueClassesLongPack.existingWrapper:existingWrapper·p0.99    sample                 45.000          ns/op
+ValueClassesLongPack.existingWrapper:existingWrapper·p0.999   sample              13824.000          ns/op
+ValueClassesLongPack.existingWrapper:existingWrapper·p0.9999  sample              26784.000          ns/op
+ValueClassesLongPack.existingWrapper:existingWrapper·p1.00    sample             122752.000          ns/op
+ValueClassesLongPack.long_                                    sample  45387955       57.027 ± 0.313  ns/op
+ValueClassesLongPack.long_:long_·p0.00                        sample                  1.000          ns/op
+ValueClassesLongPack.long_:long_·p0.50                        sample                 35.000          ns/op
+ValueClassesLongPack.long_:long_·p0.90                        sample                 38.000          ns/op
+ValueClassesLongPack.long_:long_·p0.95                        sample                 40.000          ns/op
+ValueClassesLongPack.long_:long_·p0.99                        sample                 44.000          ns/op
+ValueClassesLongPack.long_:long_·p0.999                       sample               3484.000          ns/op
+ValueClassesLongPack.long_:long_·p0.9999                      sample              26592.000          ns/op
+ValueClassesLongPack.long_:long_·p1.00                        sample             217088.000          ns/op

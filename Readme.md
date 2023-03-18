@@ -64,6 +64,31 @@ This benchmark compares shadow stack-based function returns to box-based ones.
 ![image](pics/ShadowStackData_hotspot.svg)
 
 
+# `Long` pack
+
+Another workaround is packing in `Long`. If a value class contains only primitives with not more than 64 bits, it is possible to pack them inside `Long` and return. Besides mentioned limitation, there is no other applicability issues for the strategy.
+
+This benchmark compares `Long`-based, "existing mutable wrapper"-based function returns to box-based ones.
+
+## ART
+| Type | Time |
+| :---: | :--- |
+| Box | 81.33 ± 79.31 ns |
+| ExistingWrapper | 13.99 ± 64.43 ns (17% of box) |
+| Long | 12.42 ± 78.06 ns (15% of box) |
+
+![image](pics/LongPackData_art.svg)
+
+## Hotspot
+| Type | Time |
+| :---: | :--- |
+| Box | 60.95 ± 0.57 ns |
+| ExistingWrapper | 59.02 ± 0.33 ns (97% of box) |
+| Long | 57.03 ± 0.31 ns (94% of box) |
+
+![image](pics/LongPackData_hotspot.svg)
+
+
 # Generation of MFVC
 
 These benchmarks check generation speed of instances of 2D double points:
@@ -183,30 +208,55 @@ Returning from inline function can be done without boxing because inline functio
 
 # Box usage
 
-Regular classes have to be boxed, but they do it once and never rebox. MFVC are not boxed by default but there are limitations that make them box. However, each time, the same MFVC needs to become boxed, it creates a new box. So, it is better to preserve box when it is possible. To do this, we may store and reuse boxed instances (if they were received) for each MFVC and its MFVC subnodes and pass them as parameters. This doesn't solve the problem when it is necessary to send a callee received box, but it helps in all other cases and reduces the problem.
+Regular classes have to be boxed, but they do it once and never rebox. MFVC are not boxed by default but there are limitations that make them box. However, each time, the same MFVC needs to become boxed, it creates a new box. So, it is better to preserve box when it is possible. To do this, we may store and reuse boxed instances (if they were received) for each MFVC and its MFVC subnodes and pass them as parameters. However, it prolongs lives of probably temporary boxes and takes extra time to pass the wrappers as arguments.
 
  These benchmarks show the problem and the solution.
 
 ## ART
-| Size | Type | Time |
-| ---: | :---: | :--- |
-| 100 | Regular | 591.79 ± 21.65 ns |
-| 100 | Mfvc | 4.84 ± 0.23 mcs (818% of regular) |
-| 100 | MfvcSmart | 481.09 ± 24.83 ns (81% of regular) |
+| Behavior | Type | Time |
+| :---: | :---: | :--- |
+| NotUsingLocally | Regular | 293.85 ± 24.40 ns |
+| NotUsingLocally | Mfvc | 28.94 ± 0.21 ns (10% of regular) |
+| NotUsingLocally | MfvcSmart | 29.91 ± 0.27 ns (10% of regular) |
+| UsingLocally | Regular | 197.80 ± 12.99 ns |
+| UsingLocally | Mfvc | 519.40 ± 40.16 ns (263% of regular) |
+| UsingLocally | MfvcSmart | 296.68 ± 16.38 ns (150% of regular) |
+| NotUsingPassed | Regular | 124.14 ± 8.50 ns |
+| NotUsingPassed | Mfvc | 93.27 ± 0.89 ns (75% of regular) |
+| NotUsingPassed | MfvcSmart | 139.19 ± 15.05 ns (112% of regular) |
+| UsingPassed | Regular | 195.10 ± 10.64 ns |
+| UsingPassed | Mfvc | 595.84 ± 61.20 ns (305% of regular) |
+| UsingPassed | MfvcSmart | 160.94 ± 25.06 ns (82% of regular) |
 
-![image](pics/BoxUsageData_art.svg)
+
+<table style="border: none; border-collapse: collapse;">
+<tr style="border: none;"> <td style="border: none; padding: 0;"><img src="pics/BoxUsageData_art_notusinglocally.svg"/></td><td style="border: none; padding: 0;"><img src="pics/BoxUsageData_art_usinglocally.svg"/></td>
+<tr style="border: none;"> <td style="border: none; padding: 0;"><img src="pics/BoxUsageData_art_notusingpassed.svg"/></td><td style="border: none; padding: 0;"><img src="pics/BoxUsageData_art_usingpassed.svg"/></td>
+</table>
+
 
 ## Hotspot
-| Size | Type | Time |
-| ---: | :---: | :--- |
-| 10 | Regular | 59.07 ± 8.86 ns |
-| 10 | Mfvc | 95.37 ± 5.54 ns (161% of regular) |
-| 10 | MfvcSmart | 57.86 ± 6.42 ns (98% of regular) |
-| 1000 | Regular | 52.56 ± 5.32 ns |
-| 1000 | Mfvc | 3.10 ± 0.07 mcs (5904% of regular) |
-| 1000 | MfvcSmart | 49.48 ± 1.44 ns (94% of regular) |
+| Behavior | Type | Time |
+| :---: | :---: | :--- |
+| NotUsingLocally | Regular | 54.94 ± 0.55 ns |
+| NotUsingLocally | Mfvc | 54.33 ± 0.52 ns (99% of regular) |
+| NotUsingLocally | MfvcSmart | 57.99 ± 0.65 ns (106% of regular) |
+| UsingLocally | Regular | 66.15 ± 1.21 ns |
+| UsingLocally | Mfvc | 83.20 ± 1.83 ns (126% of regular) |
+| UsingLocally | MfvcSmart | 68.56 ± 1.41 ns (104% of regular) |
+| NotUsingPassed | Regular | 75.79 ± 1.33 ns |
+| NotUsingPassed | Mfvc | 79.35 ± 0.83 ns (105% of regular) |
+| NotUsingPassed | MfvcSmart | 84.33 ± 1.17 ns (111% of regular) |
+| UsingPassed | Regular | 79.96 ± 1.20 ns |
+| UsingPassed | Mfvc | 97.32 ± 3.11 ns (122% of regular) |
+| UsingPassed | MfvcSmart | 82.49 ± 0.93 ns (103% of regular) |
 
-![image](pics/BoxUsageData_hotspot.svg)
+
+<table style="border: none; border-collapse: collapse;">
+<tr style="border: none;"> <td style="border: none; padding: 0;"><img src="pics/BoxUsageData_hotspot_notusinglocally.svg"/></td><td style="border: none; padding: 0;"><img src="pics/BoxUsageData_hotspot_usinglocally.svg"/></td>
+<tr style="border: none;"> <td style="border: none; padding: 0;"><img src="pics/BoxUsageData_hotspot_notusingpassed.svg"/></td><td style="border: none; padding: 0;"><img src="pics/BoxUsageData_hotspot_usingpassed.svg"/></td>
+</table>
+
 
 
 # VArrays

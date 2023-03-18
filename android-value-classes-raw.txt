@@ -19,9 +19,18 @@
 02-06 05:20:18.085 20264 20283 I Benchmark: ShadowStackBenchmark.boxedWithNewStorage_10[Metric (timeNs) results: median 87.40665180122784, min 82.52991428240473, max 159.0130313911734, standardDeviation: 19.729830709413616, Metric (allocationCount) results: median 1.0, min 1.0, max 1.0, standardDeviation: 0.0]count=34532
 02-06 05:20:21.548 20264 20283 I Benchmark: ShadowStackBenchmark.boxedWithNewStorage_50[Metric (timeNs) results: median 229.12478112763046, min 221.77555633376844, max 335.05287956448376, standardDeviation: 28.747912150706558, Metric (allocationCount) results: median 1.0, min 1.0, max 1.0, standardDeviation: 0.0]count=31411
 02-06 05:20:24.624 20264 20283 I Benchmark: ShadowStackBenchmark.boxedWithExistingStorage_1[Metric (timeNs) results: median 10.31929056209757, min 10.29642090608504, max 73.79288241777365, standardDeviation: 15.349593984380723, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=34478
-01-29 01:58:15.754 28394 28413 I Benchmark: ValueClassesBoxUsage.mfvcSmart[Metric (timeNs) results: median 481.08913507470277, min 472.6741538774266, max 569.6365145509368, standardDeviation: 24.825661182739083, Metric (allocationCount) results: median 2.0, min 2.0, max 2.000033878781719, standardDeviation: 1.5151051783766378E-5]count=29517
-01-29 01:58:33.366 28394 28413 I Benchmark: ValueClassesBoxUsage.mfvc[Metric (timeNs) results: median 4841.409233435103, min 4565.713672745276, max 5646.343675220728, standardDeviation: 231.72454153879082, Metric (allocationCount) results: median 101.99975245482301, min 101.99925736446902, max 102.0, standardDeviation: 3.0541720477633634E-4]count=12119
-01-29 01:58:37.404 28394 28413 I Benchmark: ValueClassesBoxUsage.regular[Metric (timeNs) results: median 591.788128236133, min 560.8446656125012, max 673.5318575016278, standardDeviation: 21.653081560633904, Metric (allocationCount) results: median 2.0, min 2.0, max 2.000093014603293, standardDeviation: 4.159739517262809E-5]count=32253
+03-17 18:02:36.834 18676 18695 I Benchmark: ValueClassesBoxUsage.mfvcSmartUsingPassed[Metric (timeNs) results: median 160.93868386675376, min 157.54281515349444, max 294.3726975832789, standardDeviation: 25.056707216539788, Metric (allocationCount) results: median 1.0, min 1.0, max 1.0, standardDeviation: 0.0]count=30620
+03-17 18:02:55.934 18676 18695 I Benchmark: ValueClassesBoxUsage.mfvcUsingPassed[Metric (timeNs) results: median 595.8366184910309, min 537.230762296806, max 940.6707130194405, standardDeviation: 61.203239380550585, Metric (allocationCount) results: median 10.000060094348127, min 9.999969952825937, max 10.00009014152219, standardDeviation: 5.027853889787841E-5]count=33281
+03-17 18:03:00.301 18676 18695 I Benchmark: ValueClassesBoxUsage.regularUsingPassed[Metric (timeNs) results: median 195.09563979355755, min 189.94757074212492, max 235.14173340452038, standardDeviation: 10.637786725886937, Metric (allocationCount) results: median 1.0, min 1.0, max 1.000035593521979, standardDeviation: 1.5917906940692872E-5]count=28095
+03-17 18:03:04.342 18676 18695 I Benchmark: ValueClassesBoxUsage.mfvcNotUsingPassed[Metric (timeNs) results: median 93.2680656199678, min 92.23775496511004, max 97.4789989264627, standardDeviation: 0.8915044486307115, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=29808
+03-17 18:03:18.843 18676 18695 I Benchmark: ValueClassesBoxUsage.mfvcUsingLocally[Metric (timeNs) results: median 519.4049990514134, min 454.8801460823373, max 609.3793397837222, standardDeviation: 40.161444150149194, Metric (allocationCount) results: median 10.0, min 9.999952570669702, max 10.0, standardDeviation: 2.121104133467353E-5]count=21084
+03-17 18:03:22.378 18676 18695 I Benchmark: ValueClassesBoxUsage.mfvcSmartNotUsingPassed[Metric (timeNs) results: median 139.1900651129902, min 134.80292271883562, max 204.57670663798945, standardDeviation: 15.048432913463426, Metric (allocationCount) results: median 1.0, min 1.0, max 1.000029462891488, standardDeviation: 1.3176205636211901E-5]count=33941
+03-17 18:03:25.972 18676 18695 I Benchmark: ValueClassesBoxUsage.mfvcSmartUsingLocally[Metric (timeNs) results: median 296.6845629025059, min 290.9188930689281, max 374.1974430912453, standardDeviation: 16.37640215603708, Metric (allocationCount) results: median 1.0, min 1.0, max 1.0000956449658867, standardDeviation: 4.277372908564148E-5]count=31366
+03-17 18:03:29.326 18676 18695 I Benchmark: ValueClassesBoxUsage.regularUsingLocally[Metric (timeNs) results: median 197.80118491511905, min 187.79414948159965, max 241.6072120314458, standardDeviation: 12.985412386474893, Metric (allocationCount) results: median 1.0, min 1.0, max 1.0000569670730317, standardDeviation: 2.547644955562002E-5]count=35108
+03-17 18:03:32.986 18676 18695 I Benchmark: ValueClassesBoxUsage.regularNotUsingLocally[Metric (timeNs) results: median 293.84829503878234, min 289.7049319478999, max 407.5684765110493, standardDeviation: 24.40307296579447, Metric (allocationCount) results: median 1.0, min 1.0, max 1.0000585394409482, standardDeviation: 2.6179633865022775E-5]count=34165
+03-17 18:03:35.910 18676 18695 I Benchmark: ValueClassesBoxUsage.mfvcSmartNotUsingLocally[Metric (timeNs) results: median 29.912291233125234, min 29.873832773064404, max 30.754228696440958, standardDeviation: 0.27353952246258423, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=37482
+03-17 18:03:39.002 18676 18695 I Benchmark: ValueClassesBoxUsage.regularNotUsingPassed[Metric (timeNs) results: median 124.14273422562141, min 116.3028134389511, max 151.13357006282436, standardDeviation: 8.503437844197558, Metric (allocationCount) results: median 1.0, min 1.0, max 1.0, standardDeviation: 0.0]count=36610
+03-17 18:03:42.146 18676 18695 I Benchmark: ValueClassesBoxUsage.mfvcNotUsingLocally[Metric (timeNs) results: median 28.939491156614405, min 28.639597165653072, max 29.524800535624617, standardDeviation: 0.21288568188580878, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=35846
 01-29 01:58:40.607 28394 28413 I Benchmark: ValueClassesGeneration.generateOuterDPointsEscapingRegular[Metric (timeNs) results: median 85.10051546391753, min 77.7125675012273, max 281.0836094747177, standardDeviation: 43.07070185965943, Metric (allocationCount) results: median 2.0, min 2.0, max 2.0, standardDeviation: 0.0]count=32592
 01-29 01:58:43.636 28394 28413 I Benchmark: ValueClassesGeneration.generateDPointsRegular[Metric (timeNs) results: median 46.46608366127387, min 43.10540737501822, max 207.77189914006703, standardDeviation: 39.799861517980816, Metric (allocationCount) results: median 1.0, min 1.0, max 1.0, standardDeviation: 0.0]count=34305
 01-29 01:58:46.547 28394 28413 I Benchmark: ValueClassesGeneration.generateDPointsMFVC[Metric (timeNs) results: median 10.315484742256192, min 10.293402678007011, max 103.4854318717315, standardDeviation: 21.94271231890275, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=34802
@@ -42,7 +51,6 @@
 01-29 02:00:23.592 28394 28413 I Benchmark: ValueClassesSearch.searchDPointsMFVCOuter100[Metric (timeNs) results: median 1787.5837436156996, min 1778.2174573229652, max 1803.6555468642157, standardDeviation: 6.311424067018333, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=21733
 01-29 02:00:31.595 28394 28413 I Benchmark: ValueClassesSearch.searchDPointsRegularOuter1000[Metric (timeNs) results: median 25072.02068865741, min 24112.64699074074, max 27554.78761574074, standardDeviation: 736.2933629387841, Metric (allocationCount) results: median 224.00115740740742, min 224.0, max 224.00144675925927, standardDeviation: 7.489686982420188E-4]count=3456
 01-29 02:00:36.636 28394 28413 I Benchmark: ValueClassesSearch.searchDPointsMFVC100[Metric (timeNs) results: median 1792.8688838626294, min 1780.774187592319, max 1822.1331240768095, standardDeviation: 9.378565678216823, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=21664
-Starting 29 tests on SM-A515F - 13
 592   ns          11 allocs    trace    ShadowStackBenchmark.boxed_10
 2,814   ns          51 allocs    trace    ShadowStackBenchmark.boxed_50
 292   ns           2 allocs    trace    ShadowStackBenchmark.newShadow_10
@@ -64,9 +72,18 @@ Starting 29 tests on SM-A515F - 13
 82.5 ns           1 allocs    trace    ShadowStackBenchmark.boxedWithNewStorage_10
 221   ns           1 allocs    trace    ShadowStackBenchmark.boxedWithNewStorage_50
 10.3 ns           0 allocs    trace    ShadowStackBenchmark.boxedWithExistingStorage_1
-472   ns           2 allocs    trace    ValueClassesBoxUsage.mfvcSmart
-4,565   ns         101 allocs    trace    ValueClassesBoxUsage.mfvc
-560   ns           2 allocs    trace    ValueClassesBoxUsage.regular
+157   ns           1 allocs    trace    ValueClassesBoxUsage.mfvcSmartUsingPassed
+537   ns          10 allocs    trace    ValueClassesBoxUsage.mfvcUsingPassed
+189   ns           1 allocs    trace    ValueClassesBoxUsage.regularUsingPassed
+92.2 ns           0 allocs    trace    ValueClassesBoxUsage.mfvcNotUsingPassed
+454   ns          10 allocs    trace    ValueClassesBoxUsage.mfvcUsingLocally
+134   ns           1 allocs    trace    ValueClassesBoxUsage.mfvcSmartNotUsingPassed
+290   ns           1 allocs    trace    ValueClassesBoxUsage.mfvcSmartUsingLocally
+187   ns           1 allocs    trace    ValueClassesBoxUsage.regularUsingLocally
+289   ns           1 allocs    trace    ValueClassesBoxUsage.regularNotUsingLocally
+29.9 ns           0 allocs    trace    ValueClassesBoxUsage.mfvcSmartNotUsingLocally
+116   ns           1 allocs    trace    ValueClassesBoxUsage.regularNotUsingPassed
+28.6 ns           0 allocs    trace    ValueClassesBoxUsage.mfvcNotUsingLocally
 77.7 ns           2 allocs    trace    ValueClassesGeneration.generateOuterDPointsEscapingRegular
 43.1 ns           1 allocs    trace    ValueClassesGeneration.generateDPointsRegular
 10.3 ns           0 allocs    trace    ValueClassesGeneration.generateDPointsMFVC
@@ -92,3 +109,9 @@ Timed out waiting for process (com.example.benchmark.test) to appear on samsung-
 01-29 23:26:58.757 28776 28796 I Benchmark: ValueClassesInlineFunctionsUsage.regular[Metric (timeNs) results: median 487.64907363826967, min 450.07950023533436, max 1540.5729750545547, standardDeviation: 274.42103761609275, Metric (allocationCount) results: median 6.0, min 5.999957211929314, max 6.000085576141371, standardDeviation: 4.687198301336176E-5]count=23371
 7.4 ns           0 allocs    trace    ValueClassesInlineFunctionsUsage.mfvc
 450   ns           6 allocs    trace    ValueClassesInlineFunctionsUsage.regular
+14.0 ns           0 allocs    trace    LongPackBenchmark.existingWrapper
+75.4 ns           1 allocs    trace    LongPackBenchmark.box
+11.9 ns           0 allocs    trace    LongPackBenchmark.long
+03-18 00:50:36.488 24894 24921 I Benchmark: LongPackBenchmark.existingWrapper[Metric (timeNs) results: median 13.99417841915382, min 13.96109380124631, max 468.9100524762217, standardDeviation: 64.43069936260717, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=24392
+03-18 00:50:39.853 24894 24921 I Benchmark: LongPackBenchmark.box[Metric (timeNs) results: median 81.33211461759149, min 75.43072563151634, max 442.4059198096704, standardDeviation: 79.31234325978832, Metric (allocationCount) results: median 1.0, min 1.0, max 1.0, standardDeviation: 0.0]count=28582
+03-18 00:50:43.135 24894 24921 I Benchmark: LongPackBenchmark.long[Metric (timeNs) results: median 12.421803095802538, min 11.868044903081858, max 302.9777924975596, standardDeviation: 78.06394033541469, Metric (allocationCount) results: median 0.0, min 0.0, max 0.0, standardDeviation: 0.0]count=28684
